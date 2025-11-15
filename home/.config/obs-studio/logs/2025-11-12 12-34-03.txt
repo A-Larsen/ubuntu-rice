@@ -1,0 +1,142 @@
+12:34:03.330: Using EGL/X11
+12:34:03.330: CPU Name: AMD Ryzen 7 6800H with Radeon Graphics
+12:34:03.330: CPU Speed: 2270.421MHz
+12:34:03.331: Physical Cores: 8, Logical Cores: 16
+12:34:03.331: Physical Memory: 15188MB Total, 2345MB Free
+12:34:03.331: Kernel Version: Linux 6.8.0-87-generic
+12:34:03.331: Distribution: "Ubuntu" "24.04"
+12:34:03.331: Session Type: tty
+12:34:03.331: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.21.1
+12:34:03.332: Qt Version: 6.4.2 (runtime), 6.4.2 (compiled)
+12:34:03.332: Portable mode: false
+12:34:03.366: OBS 30.0.2.1-3build1 (linux)
+12:34:03.366: ---------------------------------
+12:34:03.367: ---------------------------------
+12:34:03.367: audio settings reset:
+12:34:03.367: 	samples per sec: 48000
+12:34:03.367: 	speakers:        2
+12:34:03.367: 	max buffering:   960 milliseconds
+12:34:03.367: 	buffering type:  dynamically increasing
+12:34:03.368: ---------------------------------
+12:34:03.368: Initializing OpenGL...
+12:34:03.433: Loading up OpenGL on adapter AMD AMD Radeon Graphics (radeonsi, rembrandt, LLVM 19.1.5, DRM 3.63, 6.8.0-87-generic)
+12:34:03.433: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 25.0.0-devel, shading language 4.60
+12:34:03.462: ---------------------------------
+12:34:03.462: video settings reset:
+12:34:03.462: 	base resolution:   1920x1080
+12:34:03.462: 	output resolution: 1920x1080
+12:34:03.462: 	downscale filter:  Bicubic
+12:34:03.462: 	fps:               30/1
+12:34:03.462: 	format:            NV12
+12:34:03.462: 	YUV mode:          Rec. 709/Partial
+12:34:03.462: NV12 texture support not available
+12:34:03.462: P010 texture support not available
+12:34:03.466: Audio monitoring device:
+12:34:03.466: 	name: Default
+12:34:03.466: 	id: default
+12:34:03.466: ---------------------------------
+12:34:03.477: Failed to load 'en-US' text for module: 'decklink-captions.so'
+12:34:03.484: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+12:34:03.492: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+12:34:03.492: Failed to initialize module 'decklink.so'
+12:34:28.605: [portals] Error retrieving D-Bus proxy: Error calling StartServiceByName for org.freedesktop.portal.Desktop: Timeout was reached
+12:34:28.605: [pipewire] No captures available
+12:34:30.995: VAAPI: API version 1.20
+12:34:30.996: FFmpeg VAAPI H264 encoding supported
+12:34:31.003: FFmpeg VAAPI HEVC encoding supported
+12:34:31.044: [obs-websocket] [obs_module_load] you can haz websockets (Version: 5.3.4 | RPC Version: 1)
+12:34:31.044: [obs-websocket] [obs_module_load] Qt version (compile-time): 6.4.2 | Qt version (run-time): 6.4.2
+12:34:31.044: [obs-websocket] [obs_module_load] Linked ASIO Version: 102801
+12:34:31.048: [obs-websocket] [obs_module_load] Module loaded.
+12:34:31.086: os_dlopen(libvlc.so.5->libvlc.so.5): libvlc.so.5: cannot open shared object file: No such file or directory
+12:34:31.086: 
+12:34:31.086: [vlc-video]: Couldn't find VLC installation, VLC video source disabled
+12:34:31.086: ---------------------------------
+12:34:31.086:   Loaded Modules:
+12:34:31.086:     vlc-video.so
+12:34:31.086:     text-freetype2.so
+12:34:31.086:     rtmp-services.so
+12:34:31.086:     obs-x264.so
+12:34:31.086:     obs-websocket.so
+12:34:31.086:     obs-transitions.so
+12:34:31.086:     obs-outputs.so
+12:34:31.086:     obs-filters.so
+12:34:31.086:     obs-ffmpeg.so
+12:34:31.086:     linux-v4l2.so
+12:34:31.086:     linux-pulseaudio.so
+12:34:31.086:     linux-pipewire.so
+12:34:31.086:     linux-jack.so
+12:34:31.086:     linux-capture.so
+12:34:31.086:     linux-alsa.so
+12:34:31.086:     image-source.so
+12:34:31.086:     frontend-tools.so
+12:34:31.086:     decklink-output-ui.so
+12:34:31.086:     decklink-captions.so
+12:34:31.086: ---------------------------------
+12:34:31.086: QWidget::setTabOrder: 'first' and 'second' must be in the same window
+12:34:31.087: ==== Startup complete ===============================================
+12:34:31.143: All scene data cleared
+12:34:31.143: ------------------------------------------------
+12:34:31.146: pulse-input: Server name: 'pulseaudio 16.1'
+12:34:31.146: pulse-input: An error occurred while getting the source info!
+12:34:31.147: [Loaded global audio device]: 'Desktop Audio'
+12:34:31.147:     - filter: 'Compressor' (compressor_filter)
+12:34:31.147: pulse-input: Server name: 'pulseaudio 16.1'
+12:34:31.147: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+12:34:31.147: pulse-input: Started recording from 'alsa_input.pci-0000_08_00.6.HiFi__hw_acp6x__source' (default)
+12:34:31.148: [Loaded global audio device]: 'Mic/Aux'
+12:34:31.148:     - filter: 'Noise Suppression' (noise_suppress_filter_v2)
+12:34:31.148:     - filter: 'Noise Suppression 2' (noise_suppress_filter_v2)
+12:34:31.148:     - filter: 'Noise Gate' (noise_gate_filter)
+12:34:31.148:     - filter: 'Compressor' (compressor_filter)
+12:34:31.148:     - filter: 'Limiter' (limiter_filter)
+12:34:31.149: xshm-input: Geometry 1920x1080 @ 0,0
+12:34:31.150: xshm-input: failed to update geometry !
+12:34:31.155: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': No such device
+12:34:31.372: alsa-input: PCM 'front:CARD=Generic_1,DEV=0' rate set to 44100
+12:34:31.372: alsa-input: PCM 'front:CARD=Generic_1,DEV=0' channels set to 2
+12:34:31.377: Switched to scene 'Scene'
+12:34:31.377: ------------------------------------------------
+12:34:31.377: Loaded scenes:
+12:34:31.377: - scene 'Scene':
+12:34:31.377:     - source: 'Screen Capture (XSHM)' (xshm_input)
+12:34:31.377:     - source: 'Screen Capture (XSHM) 2' (xshm_input)
+12:34:31.377:     - source: 'Audio Capture Device (ALSA)' (alsa_input_capture)
+12:34:31.377:     - source: 'Audio Capture Device (ALSA) 2' (alsa_input_capture)
+12:34:31.378: ------------------------------------------------
+12:34:31.740: adding 64 milliseconds of audio buffering, total audio buffering is now 64 milliseconds (source: Mic/Aux)
+12:34:31.740: 
+12:34:32.157: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': No such device
+12:34:32.871: adding 682 milliseconds of audio buffering, total audio buffering is now 746 milliseconds (source: Audio Capture Device (ALSA) 2)
+12:34:32.871: 
+12:34:34.157: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': No such device
+12:34:37.159: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': No such device
+12:34:41.160: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': No such device
+12:34:46.161: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': No such device
+12:34:51.163: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': No such device
+12:34:56.164: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': No such device
+12:35:01.165: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': No such device
+12:35:06.166: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': No such device
+12:35:11.167: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': No such device
+12:35:16.168: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': No such device
+12:35:21.169: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': No such device
+12:35:26.170: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': No such device
+12:35:31.171: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': No such device
+12:35:36.171: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': No such device
+12:35:41.172: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': No such device
+12:35:46.173: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': No such device
+12:35:51.174: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': No such device
+12:35:56.174: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': No such device
+12:36:01.175: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': No such device
+12:36:06.176: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': No such device
+12:36:11.177: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': No such device
+12:36:16.178: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': No such device
+12:36:21.179: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': No such device
+12:36:26.180: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': No such device
+12:36:31.181: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': No such device
+12:36:36.190: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': No such device
+12:36:41.191: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': No such device
+12:36:46.192: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': No such device
+12:36:51.193: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': No such device
+12:36:56.195: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': No such device
+12:37:01.195: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': No such device

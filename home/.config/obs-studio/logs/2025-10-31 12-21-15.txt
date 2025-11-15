@@ -1,0 +1,1657 @@
+12:21:15.159: Using EGL/X11
+12:21:15.159: CPU Name: AMD Ryzen 7 6800H with Radeon Graphics
+12:21:15.159: CPU Speed: 4541.184MHz
+12:21:15.159: Physical Cores: 8, Logical Cores: 16
+12:21:15.159: Physical Memory: 15188MB Total, 1256MB Free
+12:21:15.159: Kernel Version: Linux 6.8.0-87-generic
+12:21:15.159: Distribution: "Ubuntu" "24.04"
+12:21:15.159: Session Type: tty
+12:21:15.159: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.21.1
+12:21:15.160: Qt Version: 6.4.2 (runtime), 6.4.2 (compiled)
+12:21:15.160: Portable mode: false
+12:21:15.185: OBS 30.0.2.1-3build1 (linux)
+12:21:15.185: ---------------------------------
+12:21:15.186: ---------------------------------
+12:21:15.186: audio settings reset:
+12:21:15.186: 	samples per sec: 48000
+12:21:15.186: 	speakers:        2
+12:21:15.186: 	max buffering:   960 milliseconds
+12:21:15.186: 	buffering type:  dynamically increasing
+12:21:15.187: ---------------------------------
+12:21:15.187: Initializing OpenGL...
+12:21:15.250: Loading up OpenGL on adapter AMD AMD Radeon Graphics (radeonsi, rembrandt, LLVM 19.1.5, DRM 3.63, 6.8.0-87-generic)
+12:21:15.250: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 25.0.0-devel, shading language 4.60
+12:21:15.367: ---------------------------------
+12:21:15.367: video settings reset:
+12:21:15.367: 	base resolution:   1919x1080
+12:21:15.367: 	output resolution: 1276x720
+12:21:15.367: 	downscale filter:  Bicubic
+12:21:15.367: 	fps:               30/1
+12:21:15.367: 	format:            NV12
+12:21:15.367: 	YUV mode:          Rec. 709/Partial
+12:21:15.367: NV12 texture support not available
+12:21:15.367: P010 texture support not available
+12:21:15.370: Audio monitoring device:
+12:21:15.370: 	name: Default
+12:21:15.370: 	id: default
+12:21:15.370: ---------------------------------
+12:21:15.381: Failed to load 'en-US' text for module: 'decklink-captions.so'
+12:21:15.388: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+12:21:15.396: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+12:21:15.396: Failed to initialize module 'decklink.so'
+12:21:40.522: [portals] Error retrieving D-Bus proxy: Error calling StartServiceByName for org.freedesktop.portal.Desktop: Timeout was reached
+12:21:40.522: [pipewire] No captures available
+12:21:40.620: VAAPI: API version 1.20
+12:21:40.621: FFmpeg VAAPI H264 encoding supported
+12:21:40.628: FFmpeg VAAPI HEVC encoding supported
+12:21:40.670: [obs-websocket] [obs_module_load] you can haz websockets (Version: 5.3.4 | RPC Version: 1)
+12:21:40.670: [obs-websocket] [obs_module_load] Qt version (compile-time): 6.4.2 | Qt version (run-time): 6.4.2
+12:21:40.670: [obs-websocket] [obs_module_load] Linked ASIO Version: 102801
+12:21:40.670: [obs-websocket] [Config::Load] (FirstLoad) Generating new server password.
+12:21:40.674: [obs-websocket] [obs_module_load] Module loaded.
+12:21:40.712: [vlc-video]: VLC 3.0.20 Vetinari found, VLC video source enabled
+12:21:40.712: ---------------------------------
+12:21:40.712:   Loaded Modules:
+12:21:40.712:     vlc-video.so
+12:21:40.712:     text-freetype2.so
+12:21:40.712:     rtmp-services.so
+12:21:40.712:     obs-x264.so
+12:21:40.712:     obs-websocket.so
+12:21:40.712:     obs-transitions.so
+12:21:40.712:     obs-outputs.so
+12:21:40.712:     obs-filters.so
+12:21:40.712:     obs-ffmpeg.so
+12:21:40.712:     linux-v4l2.so
+12:21:40.712:     linux-pulseaudio.so
+12:21:40.712:     linux-pipewire.so
+12:21:40.712:     linux-jack.so
+12:21:40.712:     linux-capture.so
+12:21:40.712:     linux-alsa.so
+12:21:40.712:     image-source.so
+12:21:40.712:     frontend-tools.so
+12:21:40.712:     decklink-output-ui.so
+12:21:40.712:     decklink-captions.so
+12:21:40.713: ---------------------------------
+12:21:40.713: QWidget::setTabOrder: 'first' and 'second' must be in the same window
+12:21:40.713: ==== Startup complete ===============================================
+12:21:40.717: No scene file found, creating default scene
+12:21:40.744: All scene data cleared
+12:21:40.744: ------------------------------------------------
+12:21:40.750: pulse-input: Server name: 'pulseaudio 16.1'
+12:21:40.750: pulse-input: Audio format: s16le, 48000 Hz, 2 channels
+12:21:40.750: pulse-input: Started recording from 'alsa_output.pci-0000_08_00.6.HiFi__hw_Generic_1__sink.monitor' (default)
+12:21:40.813: pulse-input: Server name: 'pulseaudio 16.1'
+12:21:40.814: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+12:21:40.814: pulse-input: Started recording from 'alsa_input.pci-0000_08_00.6.HiFi__hw_acp6x__source' (default)
+12:21:40.815: Switched to scene 'Scene'
+12:21:40.816: Failed to glob scene collections
+12:21:40.878: [rtmp-services plugin] Successfully updated file 'services.json' (version 277)
+12:21:40.878: [rtmp-services plugin] Successfully updated package (version 277)
+12:22:16.102: xshm-input: Geometry 1920x1080 @ 0,1080
+12:22:16.105: User added source 'Screen Capture (XSHM)' (xshm_input) to scene 'Scene'
+12:22:24.342: xshm-input: Geometry 1920x1080 @ 0,1080
+12:22:24.344: User added source 'Screen Capture (XSHM) 2' (xshm_input) to scene 'Scene'
+12:22:25.975: xshm-input: Geometry 2560x1080 @ 0,0
+12:23:31.890: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Desktop Audio)
+12:23:31.890: 
+12:24:34.267: alsa-input: PCM 'default' rate set to 44100
+12:24:34.267: alsa-input: PCM 'default' channels set to 2
+12:24:34.269: User added source 'Audio Capture Device (ALSA)' (alsa_input_capture) to scene 'Scene'
+12:24:38.598: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:24:39.599: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:24:41.600: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:24:44.601: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:24:48.602: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:24:53.603: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:24:58.605: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:25:03.606: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:25:05.622: User added filter 'Noise Gate' (noise_gate_filter) to source 'Mic/Aux'
+12:25:08.607: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:25:13.608: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:25:18.609: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:25:23.610: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:25:28.610: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:25:33.611: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:25:38.612: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:25:43.613: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:25:48.614: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:25:53.615: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:25:58.616: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:26:03.617: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:26:07.116: User added filter 'Compressor' (compressor_filter) to source 'Mic/Aux'
+12:26:08.618: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:26:13.619: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:26:18.619: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:26:23.620: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:26:28.621: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:26:33.622: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:26:38.623: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:26:41.616: User added filter 'Limiter' (limiter_filter) to source 'Mic/Aux'
+12:26:43.624: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:26:48.624: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:26:53.625: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:26:58.626: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:27:03.627: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:27:08.628: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:27:13.629: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:27:18.629: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:27:23.630: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:27:28.631: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:27:33.450: ---------------------------------
+12:27:33.450: [x264 encoder: 'simple_video_stream'] preset: veryfast
+12:27:33.459: [x264 encoder: 'simple_video_stream'] settings:
+12:27:33.459: 	rate_control: CBR
+12:27:33.459: 	bitrate:      2500
+12:27:33.459: 	buffer size:  2500
+12:27:33.459: 	crf:          23
+12:27:33.459: 	fps_num:      30
+12:27:33.459: 	fps_den:      1
+12:27:33.459: 	width:        1276
+12:27:33.459: 	height:       720
+12:27:33.459: 	keyint:       250
+12:27:33.459: 
+12:27:33.464: ---------------------------------
+12:27:33.465: [FFmpeg aac encoder: 'simple_aac'] bitrate: 160, channels: 2, channel_layout: stereo
+12:27:33.465: 
+12:27:33.467: ==== Recording Start ===============================================
+12:27:33.467: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/nyquist/2025-10-31 12-27-33.mkv'...
+12:27:33.632: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:27:38.633: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:27:43.634: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:27:46.711: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/nyquist/2025-10-31 12-27-33.mkv' stopped
+12:27:46.711: Output 'simple_file_output': stopping
+12:27:46.711: Output 'simple_file_output': Total frames output: 361
+12:27:46.711: Output 'simple_file_output': Total drawn frames: 398
+12:27:46.711: ==== Recording Stop ================================================
+12:27:48.635: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:27:53.636: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:27:57.895:   OpenType support missing for "Open Sans", script 11
+12:27:57.898:   OpenType support missing for "Open Sans", script 12
+12:27:57.899:   OpenType support missing for "Open Sans", script 16
+12:27:57.901:   OpenType support missing for "Open Sans", script 20
+12:27:58.637: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:28:03.638: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:28:08.639: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:28:13.639: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:28:18.640: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:28:23.641: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:28:28.642: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:28:33.642: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:28:38.643: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:28:43.644: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:28:48.645: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:28:53.645: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:28:58.646: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:29:03.647: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:29:08.648: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:29:13.649: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:29:18.650: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:29:23.650: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:29:28.651: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:29:33.652: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:29:38.653: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:29:43.653: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:29:48.654: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:29:53.654: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:29:58.655: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:30:03.656: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:30:08.657: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:30:13.658: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:30:18.659: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:30:23.659: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:30:28.660: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:34:40.064: Last log entry repeated for 50 more lines
+12:34:40.064: Settings changed (outputs)
+12:34:40.064: ------------------------------------------------
+12:34:43.708: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:34:43.853: ---------------------------------
+12:34:43.853: [x264 encoder: 'simple_video_recording'] preset: veryfast
+12:34:43.853: [x264 encoder: 'simple_video_recording'] profile: high
+12:34:43.853: [x264 encoder: 'simple_video_recording'] settings:
+12:34:43.853: 	rate_control: CRF
+12:34:43.853: 	bitrate:      0
+12:34:43.853: 	buffer size:  0
+12:34:43.853: 	crf:          21
+12:34:43.853: 	fps_num:      30
+12:34:43.853: 	fps_den:      1
+12:34:43.853: 	width:        1276
+12:34:43.853: 	height:       720
+12:34:43.853: 	keyint:       250
+12:34:43.853: 
+12:34:43.856: ---------------------------------
+12:34:43.856: [FFmpeg aac encoder: 'simple_aac_recording0'] bitrate: 192, channels: 2, channel_layout: stereo
+12:34:43.856: 
+12:34:43.857: ==== Recording Start ===============================================
+12:34:43.857: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/nyquist/Videos/OBS/2025-10-31 12-34-43.mp4'...
+12:34:48.709: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:34:52.876: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/nyquist/Videos/OBS/2025-10-31 12-34-43.mp4' stopped
+12:34:52.876: Output 'simple_file_output': stopping
+12:34:52.876: Output 'simple_file_output': Total frames output: 234
+12:34:52.876: Output 'simple_file_output': Total drawn frames: 271
+12:34:52.876: ==== Recording Stop ================================================
+12:34:53.710: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:34:58.711: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:35:03.712: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:35:08.713: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:35:13.714: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:35:18.714: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:35:23.716: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:35:28.717: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:35:33.718: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:35:38.719: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:35:43.720: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:35:48.721: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:35:53.722: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:35:58.724: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:36:03.724: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:36:08.726: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:36:13.727: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:36:18.728: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:36:23.729: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:36:28.730: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:36:33.732: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:36:38.733: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:36:43.734: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:36:48.735: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:36:53.737: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:36:58.738: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:37:03.739: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:37:08.740: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:37:13.740: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:37:18.742: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:37:23.743: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:42:29.867: Last log entry repeated for 61 more lines
+12:42:29.867: ---------------------------------
+12:42:29.867: [x264 encoder: 'simple_video_recording'] preset: veryfast
+12:42:29.867: [x264 encoder: 'simple_video_recording'] profile: high
+12:42:29.867: [x264 encoder: 'simple_video_recording'] settings:
+12:42:29.867: 	rate_control: CRF
+12:42:29.867: 	bitrate:      0
+12:42:29.867: 	buffer size:  0
+12:42:29.867: 	crf:          21
+12:42:29.867: 	fps_num:      30
+12:42:29.867: 	fps_den:      1
+12:42:29.867: 	width:        1276
+12:42:29.867: 	height:       720
+12:42:29.867: 	keyint:       250
+12:42:29.867: 
+12:42:29.870: ---------------------------------
+12:42:29.870: [FFmpeg aac encoder: 'simple_aac_recording0'] bitrate: 192, channels: 2, channel_layout: stereo
+12:42:29.870: 
+12:42:29.871: ==== Recording Start ===============================================
+12:42:29.871: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/nyquist/Videos/OBS/2025-10-31 12-42-29.mp4'...
+12:42:33.795: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:42:38.796: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:42:39.476: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/nyquist/Videos/OBS/2025-10-31 12-42-29.mp4' stopped
+12:42:39.476: Output 'simple_file_output': stopping
+12:42:39.476: Output 'simple_file_output': Total frames output: 251
+12:42:39.476: Output 'simple_file_output': Total drawn frames: 288
+12:42:39.476: ==== Recording Stop ================================================
+12:42:43.797: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:42:48.798: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:42:53.799: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:42:58.800: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:43:03.800: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:43:08.802: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:43:10.443: alsa-input: PCM 'front:CARD=Generic_1,DEV=0' rate set to 44100
+12:43:10.443: alsa-input: PCM 'front:CARD=Generic_1,DEV=0' channels set to 2
+12:43:13.423: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:43:14.424: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:43:14.951: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:43:15.952: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:43:17.952: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:43:20.953: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:43:24.954: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:43:27.590: ---------------------------------
+12:43:27.590: [x264 encoder: 'simple_video_recording'] preset: veryfast
+12:43:27.590: [x264 encoder: 'simple_video_recording'] profile: high
+12:43:27.590: [x264 encoder: 'simple_video_recording'] settings:
+12:43:27.590: 	rate_control: CRF
+12:43:27.590: 	bitrate:      0
+12:43:27.590: 	buffer size:  0
+12:43:27.590: 	crf:          21
+12:43:27.590: 	fps_num:      30
+12:43:27.590: 	fps_den:      1
+12:43:27.590: 	width:        1276
+12:43:27.590: 	height:       720
+12:43:27.590: 	keyint:       250
+12:43:27.590: 
+12:43:27.593: ---------------------------------
+12:43:27.594: [FFmpeg aac encoder: 'simple_aac_recording0'] bitrate: 192, channels: 2, channel_layout: stereo
+12:43:27.594: 
+12:43:27.595: ==== Recording Start ===============================================
+12:43:27.595: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/nyquist/Videos/OBS/2025-10-31 12-43-27.mp4'...
+12:43:29.955: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:43:34.956: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:43:35.009: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/nyquist/Videos/OBS/2025-10-31 12-43-27.mp4' stopped
+12:43:35.009: Output 'simple_file_output': stopping
+12:43:35.009: Output 'simple_file_output': Total frames output: 186
+12:43:35.009: Output 'simple_file_output': Total drawn frames: 223
+12:43:35.009: ==== Recording Stop ================================================
+12:43:39.957: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:43:44.957: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:43:49.958: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:43:54.959: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:43:59.960: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:44:00.060: alsa-input: PCM 'front:CARD=Generic_1,DEV=0' rate set to 48000
+12:44:00.060: alsa-input: PCM 'front:CARD=Generic_1,DEV=0' channels set to 2
+12:44:02.414: ---------------------------------
+12:44:02.414: [x264 encoder: 'simple_video_recording'] preset: veryfast
+12:44:02.414: [x264 encoder: 'simple_video_recording'] profile: high
+12:44:02.414: [x264 encoder: 'simple_video_recording'] settings:
+12:44:02.414: 	rate_control: CRF
+12:44:02.414: 	bitrate:      0
+12:44:02.414: 	buffer size:  0
+12:44:02.414: 	crf:          21
+12:44:02.414: 	fps_num:      30
+12:44:02.414: 	fps_den:      1
+12:44:02.414: 	width:        1276
+12:44:02.414: 	height:       720
+12:44:02.414: 	keyint:       250
+12:44:02.414: 
+12:44:02.416: ---------------------------------
+12:44:02.417: [FFmpeg aac encoder: 'simple_aac_recording0'] bitrate: 192, channels: 2, channel_layout: stereo
+12:44:02.417: 
+12:44:02.417: ==== Recording Start ===============================================
+12:44:02.417: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/nyquist/Videos/OBS/2025-10-31 12-44-02.mp4'...
+12:44:11.442: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/nyquist/Videos/OBS/2025-10-31 12-44-02.mp4' stopped
+12:44:11.447: Output 'simple_file_output': stopping
+12:44:11.447: Output 'simple_file_output': Total frames output: 234
+12:44:11.447: Output 'simple_file_output': Total drawn frames: 271
+12:44:11.448: ==== Recording Stop ================================================
+12:44:28.056: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:44:29.057: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:44:31.058: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:44:34.059: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:44:38.060: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:44:43.061: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:44:48.061: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:44:53.062: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:44:58.063: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:45:03.064: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:45:08.064: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:45:13.065: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:45:14.622: ---------------------------------
+12:45:14.622: [x264 encoder: 'simple_video_recording'] preset: veryfast
+12:45:14.622: [x264 encoder: 'simple_video_recording'] profile: high
+12:45:14.622: [x264 encoder: 'simple_video_recording'] settings:
+12:45:14.622: 	rate_control: CRF
+12:45:14.622: 	bitrate:      0
+12:45:14.622: 	buffer size:  0
+12:45:14.622: 	crf:          21
+12:45:14.622: 	fps_num:      30
+12:45:14.622: 	fps_den:      1
+12:45:14.622: 	width:        1276
+12:45:14.622: 	height:       720
+12:45:14.622: 	keyint:       250
+12:45:14.622: 
+12:45:14.624: ---------------------------------
+12:45:14.624: [FFmpeg aac encoder: 'simple_aac_recording0'] bitrate: 192, channels: 2, channel_layout: stereo
+12:45:14.624: 
+12:45:14.625: ==== Recording Start ===============================================
+12:45:14.625: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/nyquist/Videos/OBS/2025-10-31 12-45-14.mp4'...
+12:45:18.066: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:45:23.067: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:45:24.775: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/nyquist/Videos/OBS/2025-10-31 12-45-14.mp4' stopped
+12:45:24.775: Output 'simple_file_output': stopping
+12:45:24.775: Output 'simple_file_output': Total frames output: 268
+12:45:24.775: Output 'simple_file_output': Total drawn frames: 305
+12:45:24.775: ==== Recording Stop ================================================
+12:45:28.067: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:45:33.068: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:45:38.069: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:45:43.070: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:45:48.071: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:45:53.071: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:45:58.072: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:46:03.073: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:46:08.074: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:46:13.075: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:46:18.075: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:46:23.076: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:46:26.448: ---------------------------------
+12:46:26.448: [x264 encoder: 'simple_video_recording'] preset: veryfast
+12:46:26.448: [x264 encoder: 'simple_video_recording'] profile: high
+12:46:26.448: [x264 encoder: 'simple_video_recording'] settings:
+12:46:26.448: 	rate_control: CRF
+12:46:26.448: 	bitrate:      0
+12:46:26.448: 	buffer size:  0
+12:46:26.448: 	crf:          21
+12:46:26.448: 	fps_num:      30
+12:46:26.448: 	fps_den:      1
+12:46:26.448: 	width:        1276
+12:46:26.448: 	height:       720
+12:46:26.448: 	keyint:       250
+12:46:26.448: 
+12:46:26.451: ---------------------------------
+12:46:26.451: [FFmpeg aac encoder: 'simple_aac_recording0'] bitrate: 192, channels: 2, channel_layout: stereo
+12:46:26.451: 
+12:46:26.451: ==== Recording Start ===============================================
+12:46:26.451: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/nyquist/Videos/OBS/2025-10-31 12-46-26.mp4'...
+12:46:28.077: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:46:33.078: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:46:34.175: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/nyquist/Videos/OBS/2025-10-31 12-46-26.mp4' stopped
+12:46:34.175: Output 'simple_file_output': stopping
+12:46:34.175: Output 'simple_file_output': Total frames output: 195
+12:46:34.175: Output 'simple_file_output': Total drawn frames: 232
+12:46:34.175: ==== Recording Stop ================================================
+12:46:38.079: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:46:43.080: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:46:48.081: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:46:53.081: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:46:58.083: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:47:03.084: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:47:08.085: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:47:13.086: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:47:18.087: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:47:23.088: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:47:28.089: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:47:33.090: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:47:38.091: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:47:43.092: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:47:48.093: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:47:53.094: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:47:58.095: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:48:03.096: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:48:08.096: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:48:13.097: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:48:18.098: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:48:23.099: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:48:28.100: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:48:33.101: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:48:38.102: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:48:43.103: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:48:48.103: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:48:53.104: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:48:58.105: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:49:03.106: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:49:08.106: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:50:48.077: Last log entry repeated for 19 more lines
+12:50:48.077: pulse-am: Prevented feedback-loop in 'default'
+12:50:48.077: User changed audio monitoring for source 'Desktop Audio' to: monitor only
+12:50:48.123: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:50:51.198: User changed audio monitoring for source 'Desktop Audio' to: none
+12:50:53.124: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:50:58.125: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:51:02.868: pulse-am: Server name: 'pulseaudio 16.1'
+12:51:02.868: pulse-am: Audio format: s16le, 48000 Hz, 2 channels
+12:51:02.877: pulse-am: Started Monitoring in 'alsa_output.usb-Burr-Brown_from_TI_USB_Audio_CODEC-00.analog-stereo-output'
+12:51:02.877: User changed audio monitoring for source 'Mic/Aux' to: monitor only
+12:51:03.125: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:51:08.126: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:51:08.215: User changed audio monitoring for source 'Mic/Aux' to: monitor and output
+12:51:13.127: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:51:18.128: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:51:23.129: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:51:28.130: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:51:32.764: User changed audio monitoring for source 'Mic/Aux' to: monitor only
+12:51:33.131: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:51:33.989: pulse-am: Stopped Monitoring in 'alsa_output.usb-Burr-Brown_from_TI_USB_Audio_CODEC-00.analog-stereo-output'
+12:51:33.989: pulse-am: Got 2653 packets with 1493376 frames
+12:51:33.989: User changed audio monitoring for source 'Mic/Aux' to: none
+12:51:35.058: pulse-am: Server name: 'pulseaudio 16.1'
+12:51:35.058: pulse-am: Audio format: s16le, 48000 Hz, 2 channels
+12:51:35.058: pulse-am: Started Monitoring in 'alsa_output.usb-Burr-Brown_from_TI_USB_Audio_CODEC-00.analog-stereo-output'
+12:51:35.058: User changed audio monitoring for source 'Mic/Aux' to: monitor only
+12:51:38.131: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:51:43.132: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:51:48.133: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:51:53.133: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:51:58.134: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:52:03.135: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:52:08.136: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:52:13.137: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:52:18.138: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:52:23.139: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:52:28.140: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:52:33.140: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:52:38.141: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:52:43.142: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:52:46.783: pulse-am: Stopped Monitoring in 'alsa_output.usb-Burr-Brown_from_TI_USB_Audio_CODEC-00.analog-stereo-output'
+12:52:46.783: pulse-am: Got 6115 packets with 3442512 frames
+12:52:46.784: User changed audio monitoring for source 'Mic/Aux' to: none
+12:52:47.804: pulse-am: Server name: 'pulseaudio 16.1'
+12:52:47.804: pulse-am: Audio format: s16le, 48000 Hz, 2 channels
+12:52:47.804: pulse-am: Started Monitoring in 'alsa_output.usb-Burr-Brown_from_TI_USB_Audio_CODEC-00.analog-stereo-output'
+12:52:47.804: User changed audio monitoring for source 'Mic/Aux' to: monitor only
+12:52:48.143: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:52:53.144: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:52:58.145: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:53:03.146: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:53:08.147: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:53:13.148: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:53:18.148: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:53:23.149: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:53:28.150: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:53:31.364: User added filter 'Noise Suppression' (noise_suppress_filter_v2) to source 'Mic/Aux'
+12:53:33.151: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:53:38.152: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:53:43.152: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:53:48.153: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:53:53.154: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:53:58.155: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:54:03.156: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:54:08.157: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:54:13.158: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:54:18.159: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:54:23.160: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:54:28.160: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:54:33.161: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:54:38.162: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:54:43.163: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:54:48.163: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:54:53.164: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:54:58.165: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:55:03.166: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:55:08.166: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:55:13.167: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:55:18.168: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:55:23.168: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:55:28.169: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:55:33.170: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:55:38.171: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:55:43.172: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:55:48.172: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:55:53.173: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:55:58.174: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:56:03.174: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:57:19.035: Last log entry repeated for 15 more lines
+12:57:19.035: ---------------------------------
+12:57:19.035: [x264 encoder: 'simple_video_recording'] preset: veryfast
+12:57:19.035: [x264 encoder: 'simple_video_recording'] profile: high
+12:57:19.035: [x264 encoder: 'simple_video_recording'] settings:
+12:57:19.035: 	rate_control: CRF
+12:57:19.035: 	bitrate:      0
+12:57:19.035: 	buffer size:  0
+12:57:19.035: 	crf:          21
+12:57:19.035: 	fps_num:      30
+12:57:19.035: 	fps_den:      1
+12:57:19.035: 	width:        1276
+12:57:19.035: 	height:       720
+12:57:19.035: 	keyint:       250
+12:57:19.035: 
+12:57:19.037: ---------------------------------
+12:57:19.037: [FFmpeg aac encoder: 'simple_aac_recording0'] bitrate: 192, channels: 2, channel_layout: stereo
+12:57:19.037: 
+12:57:19.038: ==== Recording Start ===============================================
+12:57:19.038: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/nyquist/Videos/OBS/2025-10-31 12-57-19.mp4'...
+12:57:23.186: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:57:28.187: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:57:33.188: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:57:36.775: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/nyquist/Videos/OBS/2025-10-31 12-57-19.mp4' stopped
+12:57:36.775: Output 'simple_file_output': stopping
+12:57:36.775: Output 'simple_file_output': Total frames output: 495
+12:57:36.775: Output 'simple_file_output': Total drawn frames: 532
+12:57:36.776: ==== Recording Stop ================================================
+12:57:38.189: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:57:43.189: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:57:48.190: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:57:53.191: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:57:58.191: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:58:03.192: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:58:08.193: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:58:13.194: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:58:18.195: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:58:23.195: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:58:28.196: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:58:33.197: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:58:38.198: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:58:43.198: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:58:48.199: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:58:53.200: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:58:58.201: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:59:03.202: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:59:08.203: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:59:13.204: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:59:18.205: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:59:23.205: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:59:28.206: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:59:32.797: ---------------------------------
+12:59:32.797: [x264 encoder: 'simple_video_recording'] preset: veryfast
+12:59:32.797: [x264 encoder: 'simple_video_recording'] profile: high
+12:59:32.797: [x264 encoder: 'simple_video_recording'] settings:
+12:59:32.797: 	rate_control: CRF
+12:59:32.797: 	bitrate:      0
+12:59:32.797: 	buffer size:  0
+12:59:32.797: 	crf:          21
+12:59:32.797: 	fps_num:      30
+12:59:32.797: 	fps_den:      1
+12:59:32.797: 	width:        1276
+12:59:32.797: 	height:       720
+12:59:32.797: 	keyint:       250
+12:59:32.797: 
+12:59:32.799: ---------------------------------
+12:59:32.799: [FFmpeg aac encoder: 'simple_aac_recording0'] bitrate: 192, channels: 2, channel_layout: stereo
+12:59:32.799: 
+12:59:32.800: ==== Recording Start ===============================================
+12:59:32.800: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/nyquist/Videos/OBS/2025-10-31 12-59-32.mp4'...
+12:59:33.207: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:59:38.207: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:59:39.942: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/nyquist/Videos/OBS/2025-10-31 12-59-32.mp4' stopped
+12:59:39.942: Output 'simple_file_output': stopping
+12:59:39.942: Output 'simple_file_output': Total frames output: 178
+12:59:39.942: Output 'simple_file_output': Total drawn frames: 215
+12:59:39.942: ==== Recording Stop ================================================
+12:59:43.208: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:59:48.209: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:59:53.210: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:59:58.210: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+12:59:58.364: User changed audio monitoring for source 'Mic/Aux' to: monitor and output
+13:00:03.211: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:00:03.618: ---------------------------------
+13:00:03.618: [x264 encoder: 'simple_video_recording'] preset: veryfast
+13:00:03.618: [x264 encoder: 'simple_video_recording'] profile: high
+13:00:03.618: [x264 encoder: 'simple_video_recording'] settings:
+13:00:03.618: 	rate_control: CRF
+13:00:03.618: 	bitrate:      0
+13:00:03.618: 	buffer size:  0
+13:00:03.618: 	crf:          21
+13:00:03.618: 	fps_num:      30
+13:00:03.618: 	fps_den:      1
+13:00:03.618: 	width:        1276
+13:00:03.618: 	height:       720
+13:00:03.618: 	keyint:       250
+13:00:03.618: 
+13:00:03.620: ---------------------------------
+13:00:03.620: [FFmpeg aac encoder: 'simple_aac_recording0'] bitrate: 192, channels: 2, channel_layout: stereo
+13:00:03.620: 
+13:00:03.621: ==== Recording Start ===============================================
+13:00:03.621: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/nyquist/Videos/OBS/2025-10-31 13-00-03.mp4'...
+13:00:08.212: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:00:12.684: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/nyquist/Videos/OBS/2025-10-31 13-00-03.mp4' stopped
+13:00:12.684: Output 'simple_file_output': stopping
+13:00:12.684: Output 'simple_file_output': Total frames output: 235
+13:00:12.684: Output 'simple_file_output': Total drawn frames: 272
+13:00:12.684: ==== Recording Stop ================================================
+13:00:13.213: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:00:18.214: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:00:23.214: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:00:28.215: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:00:33.216: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:00:38.217: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:00:43.218: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:00:48.219: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:00:53.219: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:00:58.220: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:01:03.221: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:01:08.222: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:01:13.223: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:01:18.224: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:01:18.668: ---------------------------------
+13:01:18.668: [x264 encoder: 'simple_video_recording'] preset: veryfast
+13:01:18.668: [x264 encoder: 'simple_video_recording'] profile: high
+13:01:18.668: [x264 encoder: 'simple_video_recording'] settings:
+13:01:18.668: 	rate_control: CRF
+13:01:18.668: 	bitrate:      0
+13:01:18.668: 	buffer size:  0
+13:01:18.668: 	crf:          21
+13:01:18.668: 	fps_num:      30
+13:01:18.668: 	fps_den:      1
+13:01:18.668: 	width:        1276
+13:01:18.668: 	height:       720
+13:01:18.668: 	keyint:       250
+13:01:18.668: 
+13:01:18.670: ---------------------------------
+13:01:18.670: [FFmpeg aac encoder: 'simple_aac_recording0'] bitrate: 192, channels: 2, channel_layout: stereo
+13:01:18.670: 
+13:01:18.671: ==== Recording Start ===============================================
+13:01:18.671: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/nyquist/Videos/OBS/2025-10-31 13-01-18.mp4'...
+13:01:23.225: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:01:28.225: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:01:28.645: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/nyquist/Videos/OBS/2025-10-31 13-01-18.mp4' stopped
+13:01:28.646: Output 'simple_file_output': stopping
+13:01:28.646: Output 'simple_file_output': Total frames output: 262
+13:01:28.646: Output 'simple_file_output': Total drawn frames: 299
+13:01:28.646: ==== Recording Stop ================================================
+13:01:33.226: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:01:38.227: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:01:43.228: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:01:48.228: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:01:53.229: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:01:58.230: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:02:03.231: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:02:08.232: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:02:13.232: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:02:18.233: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:02:23.234: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:02:28.235: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:02:33.236: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:02:38.237: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:02:43.238: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:02:48.239: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:02:53.240: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:02:58.241: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:03:03.242: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:03:08.242: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:03:09.987: User added filter 'Noise Suppression 2' (noise_suppress_filter_v2) to source 'Mic/Aux'
+13:03:13.243: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:03:18.244: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:03:23.244: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:03:28.245: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:03:33.246: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:03:35.044: ---------------------------------
+13:03:35.044: [x264 encoder: 'simple_video_recording'] preset: veryfast
+13:03:35.044: [x264 encoder: 'simple_video_recording'] profile: high
+13:03:35.044: [x264 encoder: 'simple_video_recording'] settings:
+13:03:35.044: 	rate_control: CRF
+13:03:35.044: 	bitrate:      0
+13:03:35.044: 	buffer size:  0
+13:03:35.044: 	crf:          21
+13:03:35.044: 	fps_num:      30
+13:03:35.044: 	fps_den:      1
+13:03:35.044: 	width:        1276
+13:03:35.044: 	height:       720
+13:03:35.044: 	keyint:       250
+13:03:35.044: 
+13:03:35.046: ---------------------------------
+13:03:35.046: [FFmpeg aac encoder: 'simple_aac_recording0'] bitrate: 192, channels: 2, channel_layout: stereo
+13:03:35.046: 
+13:03:35.047: ==== Recording Start ===============================================
+13:03:35.047: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/nyquist/Videos/OBS/2025-10-31 13-03-35.mp4'...
+13:03:38.247: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:03:43.247: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:03:48.248: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:03:53.249: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:03:58.250: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:04:03.250: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:04:08.251: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:04:10.946: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/nyquist/Videos/OBS/2025-10-31 13-03-35.mp4' stopped
+13:04:10.946: Output 'simple_file_output': stopping
+13:04:10.946: Output 'simple_file_output': Total frames output: 1040
+13:04:10.946: Output 'simple_file_output': Total drawn frames: 1077
+13:04:10.946: ==== Recording Stop ================================================
+13:04:13.252: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:04:18.253: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:04:20.091: ---------------------------------
+13:04:20.092: [x264 encoder: 'simple_video_recording'] preset: veryfast
+13:04:20.092: [x264 encoder: 'simple_video_recording'] profile: high
+13:04:20.092: [x264 encoder: 'simple_video_recording'] settings:
+13:04:20.092: 	rate_control: CRF
+13:04:20.092: 	bitrate:      0
+13:04:20.092: 	buffer size:  0
+13:04:20.092: 	crf:          21
+13:04:20.092: 	fps_num:      30
+13:04:20.092: 	fps_den:      1
+13:04:20.092: 	width:        1276
+13:04:20.092: 	height:       720
+13:04:20.092: 	keyint:       250
+13:04:20.092: 
+13:04:20.094: ---------------------------------
+13:04:20.094: [FFmpeg aac encoder: 'simple_aac_recording0'] bitrate: 192, channels: 2, channel_layout: stereo
+13:04:20.094: 
+13:04:20.094: ==== Recording Start ===============================================
+13:04:20.094: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/nyquist/Videos/OBS/2025-10-31 13-04-20.mp4'...
+13:04:23.254: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:04:28.255: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:04:33.256: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:04:38.257: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:04:43.258: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:04:48.259: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:04:53.259: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:04:58.260: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:05:03.261: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:05:08.262: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:05:13.263: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:05:18.264: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:05:18.727: adding 42 milliseconds of audio buffering, total audio buffering is now 64 milliseconds (source: Mic/Aux)
+13:05:18.727: 
+13:05:23.265: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:05:28.266: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:05:33.267: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:05:38.269: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:05:43.270: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:05:48.271: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:05:53.272: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:05:58.273: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:06:03.274: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:06:08.275: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:06:13.275: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:06:18.276: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:06:23.277: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:06:28.277: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:06:33.278: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:06:38.279: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:06:43.280: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:06:48.280: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:06:53.004: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/nyquist/Videos/OBS/2025-10-31 13-04-20.mp4' stopped
+13:06:53.004: Output 'simple_file_output': stopping
+13:06:53.004: Output 'simple_file_output': Total frames output: 4550
+13:06:53.004: Output 'simple_file_output': Total drawn frames: 4588
+13:06:53.005: ==== Recording Stop ================================================
+13:06:53.281: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:06:58.281: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:07:03.282: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:07:08.283: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:07:13.284: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:07:18.285: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:07:23.295: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:07:28.296: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:07:33.297: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:07:38.298: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:07:43.299: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:07:48.300: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:07:53.301: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:07:58.302: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:08:03.302: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:08:08.303: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:08:13.304: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:08:13.462: pulse-input: Stopped recording from 'alsa_output.usb-Burr-Brown_from_TI_USB_Audio_CODEC-00.analog-stereo-output.monitor'
+13:08:13.462: pulse-input: Got 317076 packets with 134044372 frames
+13:08:13.462: pulse-input: Server name: 'pulseaudio 16.1'
+13:08:13.463: pulse-input: Audio format: s16le, 48000 Hz, 2 channels
+13:08:13.463: pulse-input: Started recording from 'alsa_output.usb-Burr-Brown_from_TI_USB_Audio_CODEC-00.analog-stereo-output.monitor'
+13:08:18.305: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:08:23.306: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:08:28.307: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:08:29.289: pulse-input: Stopped recording from 'default'
+13:08:29.289: pulse-input: Got 239270 packets with 134800311 frames
+13:08:29.290: pulse-input: Server name: 'pulseaudio 16.1'
+13:08:29.290: pulse-input: Audio format: s16le, 48000 Hz, 2 channels
+13:08:29.290: pulse-input: Started recording from 'alsa_input.usb-Burr-Brown_from_TI_USB_Audio_CODEC-00.analog-stereo-input' (default)
+13:08:29.832: adding 554 milliseconds of audio buffering, total audio buffering is now 618 milliseconds (source: Mic/Aux)
+13:08:29.832: 
+13:08:33.308: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:08:35.784: pulse-input: Stopped recording from 'default'
+13:08:35.784: pulse-input: Got 555 packets with 311664 frames
+13:08:35.785: pulse-input: Server name: 'pulseaudio 16.1'
+13:08:35.785: pulse-input: Audio format: s16le, 48000 Hz, 2 channels
+13:08:35.785: pulse-input: Started recording from 'alsa_input.usb-Burr-Brown_from_TI_USB_Audio_CODEC-00.analog-stereo-input' (default)
+13:08:38.309: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:08:43.309: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:08:48.310: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:08:53.311: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:08:58.312: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:09:03.027: User added filter 'Compressor' (compressor_filter) to source 'Desktop Audio'
+13:09:03.313: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:09:08.314: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:09:13.315: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:09:18.316: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:09:23.316: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:09:28.317: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:09:33.318: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:09:38.319: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:09:43.320: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:09:48.321: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:09:53.321: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:09:58.322: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:10:03.323: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:10:08.324: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:10:13.325: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:10:18.326: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:10:23.327: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:10:28.327: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:10:33.328: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:10:38.329: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:10:43.329: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:10:48.330: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:10:53.332: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:10:58.332: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:11:03.333: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:11:08.334: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:11:13.335: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:11:18.336: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:11:22.769: pulse-am: Stopped Monitoring in 'alsa_output.usb-Burr-Brown_from_TI_USB_Audio_CODEC-00.analog-stereo-output'
+13:11:22.769: pulse-am: Got 95061 packets with 53459185 frames
+13:11:22.769: User changed audio monitoring for source 'Mic/Aux' to: none
+13:11:23.337: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:11:28.337: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:11:33.338: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:11:38.340: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:11:43.342: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:11:48.343: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:11:53.343: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:11:58.344: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:12:03.345: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:12:08.345: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:12:13.347: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:12:18.347: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:12:22.046: ---------------------------------
+13:12:22.046: [x264 encoder: 'simple_video_recording'] preset: veryfast
+13:12:22.046: [x264 encoder: 'simple_video_recording'] profile: high
+13:12:22.046: [x264 encoder: 'simple_video_recording'] settings:
+13:12:22.046: 	rate_control: CRF
+13:12:22.046: 	bitrate:      0
+13:12:22.046: 	buffer size:  0
+13:12:22.046: 	crf:          21
+13:12:22.046: 	fps_num:      30
+13:12:22.046: 	fps_den:      1
+13:12:22.046: 	width:        1276
+13:12:22.046: 	height:       720
+13:12:22.046: 	keyint:       250
+13:12:22.046: 
+13:12:22.048: ---------------------------------
+13:12:22.048: [FFmpeg aac encoder: 'simple_aac_recording0'] bitrate: 192, channels: 2, channel_layout: stereo
+13:12:22.048: 
+13:12:22.049: ==== Recording Start ===============================================
+13:12:22.049: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/nyquist/Videos/OBS/2025-10-31 13-12-22.mp4'...
+13:12:23.348: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:12:27.278: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/nyquist/Videos/OBS/2025-10-31 13-12-22.mp4' stopped
+13:12:27.278: Output 'simple_file_output': stopping
+13:12:27.278: Output 'simple_file_output': Total frames output: 120
+13:12:27.278: Output 'simple_file_output': Total drawn frames: 157
+13:12:27.279: ==== Recording Stop ================================================
+13:12:28.349: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:12:33.350: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:12:36.232: ---------------------------------
+13:12:36.232: [x264 encoder: 'simple_video_recording'] preset: veryfast
+13:12:36.232: [x264 encoder: 'simple_video_recording'] profile: high
+13:12:36.232: [x264 encoder: 'simple_video_recording'] settings:
+13:12:36.232: 	rate_control: CRF
+13:12:36.232: 	bitrate:      0
+13:12:36.232: 	buffer size:  0
+13:12:36.232: 	crf:          21
+13:12:36.232: 	fps_num:      30
+13:12:36.232: 	fps_den:      1
+13:12:36.232: 	width:        1276
+13:12:36.232: 	height:       720
+13:12:36.232: 	keyint:       250
+13:12:36.232: 
+13:12:36.234: ---------------------------------
+13:12:36.234: [FFmpeg aac encoder: 'simple_aac_recording0'] bitrate: 192, channels: 2, channel_layout: stereo
+13:12:36.234: 
+13:12:36.235: ==== Recording Start ===============================================
+13:12:36.235: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/nyquist/Videos/OBS/2025-10-31 13-12-36.mp4'...
+13:12:38.351: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:12:38.647: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/nyquist/Videos/OBS/2025-10-31 13-12-36.mp4' stopped
+13:12:38.647: Output 'simple_file_output': stopping
+13:12:38.647: Output 'simple_file_output': Total frames output: 36
+13:12:38.647: Output 'simple_file_output': Total drawn frames: 73
+13:12:38.647: ==== Recording Stop ================================================
+13:12:43.352: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:12:48.353: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:12:53.354: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:12:58.355: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:13:03.356: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:13:06.768: ---------------------------------
+13:13:06.769: [x264 encoder: 'simple_video_recording'] preset: veryfast
+13:13:06.769: [x264 encoder: 'simple_video_recording'] profile: high
+13:13:06.769: [x264 encoder: 'simple_video_recording'] settings:
+13:13:06.769: 	rate_control: CRF
+13:13:06.769: 	bitrate:      0
+13:13:06.769: 	buffer size:  0
+13:13:06.769: 	crf:          21
+13:13:06.769: 	fps_num:      30
+13:13:06.769: 	fps_den:      1
+13:13:06.769: 	width:        1276
+13:13:06.769: 	height:       720
+13:13:06.769: 	keyint:       250
+13:13:06.769: 
+13:13:06.770: ---------------------------------
+13:13:06.771: [FFmpeg aac encoder: 'simple_aac_recording0'] bitrate: 192, channels: 2, channel_layout: stereo
+13:13:06.771: 
+13:13:06.778: ==== Recording Start ===============================================
+13:13:06.778: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/nyquist/Videos/OBS/2025-10-31 13-13-06.mp4'...
+13:13:08.357: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:13:13.358: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:13:18.359: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:13:21.113: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/nyquist/Videos/OBS/2025-10-31 13-13-06.mp4' stopped
+13:13:21.113: Output 'simple_file_output': stopping
+13:13:21.113: Output 'simple_file_output': Total frames output: 393
+13:13:21.113: Output 'simple_file_output': Total drawn frames: 430
+13:13:21.113: ==== Recording Stop ================================================
+13:13:23.359: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:13:28.360: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:13:33.361: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:13:38.362: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:13:43.362: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:13:48.363: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:13:53.373: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:13:58.374: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:14:03.375: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:14:08.375: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:14:13.376: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:14:18.377: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:14:23.377: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:14:28.378: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:14:33.379: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:14:38.380: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:14:43.380: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:14:43.598: ---------------------------------
+13:14:43.598: [x264 encoder: 'simple_video_recording'] preset: veryfast
+13:14:43.598: [x264 encoder: 'simple_video_recording'] profile: high
+13:14:43.598: [x264 encoder: 'simple_video_recording'] settings:
+13:14:43.598: 	rate_control: CRF
+13:14:43.598: 	bitrate:      0
+13:14:43.598: 	buffer size:  0
+13:14:43.598: 	crf:          21
+13:14:43.598: 	fps_num:      30
+13:14:43.598: 	fps_den:      1
+13:14:43.598: 	width:        1276
+13:14:43.598: 	height:       720
+13:14:43.598: 	keyint:       250
+13:14:43.598: 
+13:14:43.600: ---------------------------------
+13:14:43.600: [FFmpeg aac encoder: 'simple_aac_recording0'] bitrate: 192, channels: 2, channel_layout: stereo
+13:14:43.600: 
+13:14:43.601: ==== Recording Start ===============================================
+13:14:43.601: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/nyquist/Videos/OBS/2025-10-31 13-14-43.mp4'...
+13:14:48.381: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:14:53.382: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:14:58.383: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:15:03.383: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:15:08.384: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:15:13.385: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:15:18.386: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:15:23.387: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:15:23.445: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/nyquist/Videos/OBS/2025-10-31 13-14-43.mp4' stopped
+13:15:23.445: Output 'simple_file_output': stopping
+13:15:23.445: Output 'simple_file_output': Total frames output: 1159
+13:15:23.445: Output 'simple_file_output': Total drawn frames: 1196
+13:15:23.445: ==== Recording Stop ================================================
+13:15:28.387: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:15:33.388: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:15:38.389: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:15:43.390: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:15:48.391: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:15:53.392: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:15:58.393: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:16:03.394: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:16:08.395: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:16:13.396: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:16:18.396: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:16:23.397: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:16:28.398: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:16:33.398: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:16:38.399: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:16:43.400: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:16:48.401: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:16:53.401: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:16:58.402: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:17:03.403: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:17:08.403: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:17:13.404: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:17:18.405: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:17:23.406: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:17:26.117: pulse-am: Server name: 'pulseaudio 16.1'
+13:17:26.117: pulse-am: Audio format: s16le, 48000 Hz, 2 channels
+13:17:26.117: pulse-am: Started Monitoring in 'alsa_output.usb-Burr-Brown_from_TI_USB_Audio_CODEC-00.analog-stereo-output'
+13:17:26.117: User changed audio monitoring for source 'Mic/Aux' to: monitor and output
+13:17:28.407: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:17:32.698: pulse-am: Stopped Monitoring in 'alsa_output.usb-Burr-Brown_from_TI_USB_Audio_CODEC-00.analog-stereo-output'
+13:17:32.698: pulse-am: Got 562 packets with 316032 frames
+13:17:32.698: User changed audio monitoring for source 'Mic/Aux' to: none
+13:17:33.408: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:17:38.409: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:17:43.410: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:17:45.526: ---------------------------------
+13:17:45.526: [x264 encoder: 'simple_video_recording'] preset: veryfast
+13:17:45.526: [x264 encoder: 'simple_video_recording'] profile: high
+13:17:45.526: [x264 encoder: 'simple_video_recording'] settings:
+13:17:45.526: 	rate_control: CRF
+13:17:45.526: 	bitrate:      0
+13:17:45.526: 	buffer size:  0
+13:17:45.526: 	crf:          21
+13:17:45.526: 	fps_num:      30
+13:17:45.526: 	fps_den:      1
+13:17:45.526: 	width:        1276
+13:17:45.526: 	height:       720
+13:17:45.526: 	keyint:       250
+13:17:45.526: 
+13:17:45.528: ---------------------------------
+13:17:45.528: [FFmpeg aac encoder: 'simple_aac_recording0'] bitrate: 192, channels: 2, channel_layout: stereo
+13:17:45.528: 
+13:17:45.528: ==== Recording Start ===============================================
+13:17:45.528: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/nyquist/Videos/OBS/2025-10-31 13-17-45.mp4'...
+13:17:48.411: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:17:53.412: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:17:55.980: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/nyquist/Videos/OBS/2025-10-31 13-17-45.mp4' stopped
+13:17:55.980: Output 'simple_file_output': stopping
+13:17:55.980: Output 'simple_file_output': Total frames output: 277
+13:17:55.980: Output 'simple_file_output': Total drawn frames: 314
+13:17:55.980: ==== Recording Stop ================================================
+13:17:58.413: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:18:03.414: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:18:08.415: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:18:13.416: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:18:18.135: ---------------------------------
+13:18:18.135: [x264 encoder: 'simple_video_recording'] preset: veryfast
+13:18:18.135: [x264 encoder: 'simple_video_recording'] profile: high
+13:18:18.135: [x264 encoder: 'simple_video_recording'] settings:
+13:18:18.135: 	rate_control: CRF
+13:18:18.135: 	bitrate:      0
+13:18:18.135: 	buffer size:  0
+13:18:18.135: 	crf:          21
+13:18:18.135: 	fps_num:      30
+13:18:18.135: 	fps_den:      1
+13:18:18.135: 	width:        1276
+13:18:18.135: 	height:       720
+13:18:18.135: 	keyint:       250
+13:18:18.135: 
+13:18:18.137: ---------------------------------
+13:18:18.137: [FFmpeg aac encoder: 'simple_aac_recording0'] bitrate: 192, channels: 2, channel_layout: stereo
+13:18:18.137: 
+13:18:18.138: ==== Recording Start ===============================================
+13:18:18.138: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/nyquist/Videos/OBS/2025-10-31 13-18-18.mp4'...
+13:18:18.417: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:18:23.418: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:18:28.419: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:18:33.419: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:18:38.420: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:18:43.421: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:18:48.422: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:18:53.423: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:18:58.424: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:19:03.424: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:19:08.425: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:19:13.426: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:19:18.427: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:19:23.428: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:19:28.429: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:19:33.430: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:19:38.430: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:19:43.431: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:19:48.432: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:19:53.433: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:19:58.434: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:20:03.435: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:20:08.435: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:20:13.436: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:20:18.437: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:20:23.437: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:20:28.439: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:20:33.440: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:20:38.441: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:20:43.443: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:20:48.444: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:44:23.419: Last log entry repeated for 282 more lines
+13:44:23.419: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/nyquist/Videos/OBS/2025-10-31 13-18-18.mp4' stopped
+13:44:23.419: Output 'simple_file_output': stopping
+13:44:23.419: Output 'simple_file_output': Total frames output: 46921
+13:44:23.419: Output 'simple_file_output': Total drawn frames: 46958
+13:44:23.419: ==== Recording Stop ================================================
+13:44:23.674: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:44:28.675: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:44:33.676: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:44:38.676: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:44:43.677: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:44:48.678: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:44:53.679: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:44:58.680: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:45:03.680: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:45:08.681: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:45:13.682: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:45:18.682: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:45:23.683: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:45:28.665: Settings changed (outputs)
+13:45:28.665: ------------------------------------------------
+13:45:28.684: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:45:33.685: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:45:38.686: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:45:43.687: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:45:48.687: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:45:53.652: ==== Recording Start ===============================================
+13:45:53.688: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:45:58.689: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:46:03.690: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:46:03.856: Output 'simple_ffmpeg_output': stopping
+13:46:03.856: Output 'simple_ffmpeg_output': Total frames output: 305
+13:46:03.856: Output 'simple_ffmpeg_output': Total drawn frames: 306
+13:46:03.857: ==== Recording Stop ================================================
+13:46:08.691: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:46:13.691: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:46:18.692: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:46:23.693: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:46:28.694: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:46:33.695: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:46:38.696: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:46:43.696: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:46:48.697: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:46:53.698: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:46:58.699: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:47:03.700: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:47:08.701: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:47:13.701: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:47:18.702: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:47:23.703: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:47:28.571: Number of remaining views: 1
+13:47:28.571: ---------------------------------
+13:47:28.571: video settings reset:
+13:47:28.571: 	base resolution:   1920x1080
+13:47:28.571: 	output resolution: 1920x1080
+13:47:28.571: 	downscale filter:  Bicubic
+13:47:28.571: 	fps:               30/1
+13:47:28.571: 	format:            NV12
+13:47:28.571: 	YUV mode:          Rec. 709/Partial
+13:47:28.571: NV12 texture support not available
+13:47:28.571: P010 texture support not available
+13:47:28.573: Settings changed (outputs, video)
+13:47:28.573: ------------------------------------------------
+13:47:28.704: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:47:33.705: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:47:38.706: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:47:43.706: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:47:48.707: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:47:53.708: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:47:58.709: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:48:03.710: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:48:08.711: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:48:13.712: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:48:18.712: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:48:23.713: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:48:28.713: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:48:33.723: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:48:38.724: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:48:43.725: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:48:48.726: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:48:49.998: Settings changed (general, outputs)
+13:48:49.998: ------------------------------------------------
+13:48:52.459: ---------------------------------
+13:48:52.459: [x264 encoder: 'simple_video_recording'] preset: veryfast
+13:48:52.459: [x264 encoder: 'simple_video_recording'] profile: high
+13:48:52.459: [x264 encoder: 'simple_video_recording'] settings:
+13:48:52.459: 	rate_control: CRF
+13:48:52.459: 	bitrate:      0
+13:48:52.459: 	buffer size:  0
+13:48:52.459: 	crf:          16
+13:48:52.459: 	fps_num:      30
+13:48:52.459: 	fps_den:      1
+13:48:52.459: 	width:        1920
+13:48:52.459: 	height:       1080
+13:48:52.459: 	keyint:       250
+13:48:52.459: 
+13:48:52.466: ---------------------------------
+13:48:52.466: [FFmpeg aac encoder: 'simple_aac_recording0'] bitrate: 192, channels: 2, channel_layout: stereo
+13:48:52.466: 
+13:48:52.467: ==== Recording Start ===============================================
+13:48:52.467: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/nyquist/Videos/OBS/2025-10-31 13-48-52.mp4'...
+13:48:53.727: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:48:58.728: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:49:03.729: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:49:06.381: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/nyquist/Videos/OBS/2025-10-31 13-48-52.mp4' stopped
+13:49:06.381: Output 'simple_file_output': stopping
+13:49:06.381: Output 'simple_file_output': Total frames output: 379
+13:49:06.381: Output 'simple_file_output': Total drawn frames: 418
+13:49:06.382: ==== Recording Stop ================================================
+13:49:08.729: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:49:13.730: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:49:18.731: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:49:23.732: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:49:28.733: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:49:33.734: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:49:38.735: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:49:43.736: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:49:48.736: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:49:53.737: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:49:58.738: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:50:03.739: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:50:08.740: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:50:13.741: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:50:18.742: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:50:23.743: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:50:28.744: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:50:32.286: ---------------------------------
+13:50:32.286: [x264 encoder: 'simple_video_recording'] preset: veryfast
+13:50:32.286: [x264 encoder: 'simple_video_recording'] profile: high
+13:50:32.286: [x264 encoder: 'simple_video_recording'] settings:
+13:50:32.286: 	rate_control: CRF
+13:50:32.286: 	bitrate:      0
+13:50:32.286: 	buffer size:  0
+13:50:32.286: 	crf:          16
+13:50:32.286: 	fps_num:      30
+13:50:32.286: 	fps_den:      1
+13:50:32.286: 	width:        1920
+13:50:32.286: 	height:       1080
+13:50:32.286: 	keyint:       250
+13:50:32.286: 
+13:50:32.292: ---------------------------------
+13:50:32.293: [FFmpeg aac encoder: 'simple_aac_recording0'] bitrate: 192, channels: 2, channel_layout: stereo
+13:50:32.293: 
+13:50:32.294: ==== Recording Start ===============================================
+13:50:32.294: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/nyquist/Videos/OBS/2025-10-31 13-50-32.mp4'...
+13:50:33.744: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:50:38.745: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:50:43.745: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:50:48.746: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:50:52.548: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/nyquist/Videos/OBS/2025-10-31 13-50-32.mp4' stopped
+13:50:52.548: Output 'simple_file_output': stopping
+13:50:52.548: Output 'simple_file_output': Total frames output: 569
+13:50:52.548: Output 'simple_file_output': Total drawn frames: 608
+13:50:52.549: ==== Recording Stop ================================================
+13:50:53.747: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:50:58.748: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:51:03.749: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:51:08.750: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:51:13.750: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:51:18.751: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:51:23.752: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:51:28.753: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:51:33.754: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:51:38.754: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:51:43.755: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:51:48.757: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:51:53.757: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:51:58.758: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:52:03.759: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:52:08.760: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:52:13.761: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:52:18.761: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:52:23.762: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:52:28.763: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:52:33.764: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:52:38.765: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:52:43.766: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:52:48.767: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:52:53.769: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:52:58.770: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:53:03.771: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:53:08.772: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:53:13.773: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:53:18.774: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:53:23.775: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:53:24.308: Settings changed (hotkeys)
+13:53:24.308: ------------------------------------------------
+13:53:28.776: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:53:29.710: Settings changed (hotkeys)
+13:53:29.710: ------------------------------------------------
+13:53:31.842: Starting stream due to hotkey
+13:53:31.844: Stream output type 'rtmp_output' failed to start!
+13:53:33.777: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:53:38.778: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:53:43.779: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:53:48.780: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:53:53.780: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:53:54.781: Settings changed (hotkeys)
+13:53:54.781: ------------------------------------------------
+13:53:58.781: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:54:03.782: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:54:08.782: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:54:13.783: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:54:18.784: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:54:23.785: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:54:28.786: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:54:33.787: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:54:38.788: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:54:43.788: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:54:43.966: Settings changed (hotkeys)
+13:54:43.966: ------------------------------------------------
+13:54:48.789: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:54:51.446: Settings changed (hotkeys)
+13:54:51.446: ------------------------------------------------
+13:54:52.587: Starting stream due to hotkey
+13:54:52.589: Stream output type 'rtmp_output' failed to start!
+13:54:53.790: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:54:58.791: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:55:01.964: Starting stream due to hotkey
+13:55:01.966: Stream output type 'rtmp_output' failed to start!
+13:55:03.791: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:55:08.792: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:55:13.793: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:55:17.245: xshm-input: Geometry 1920x1080 @ 0,1080
+13:55:18.793: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:55:23.794: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:55:24.684: Starting stream due to hotkey
+13:55:24.685: Stream output type 'rtmp_output' failed to start!
+13:55:28.795: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:55:29.996: Starting stream due to hotkey
+13:55:29.998: Stream output type 'rtmp_output' failed to start!
+13:55:33.532: Starting stream due to hotkey
+13:55:33.534: Stream output type 'rtmp_output' failed to start!
+13:55:33.796: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:55:38.797: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:55:41.183: Settings changed (hotkeys)
+13:55:41.183: ------------------------------------------------
+13:55:42.668: ---------------------------------
+13:55:42.668: [x264 encoder: 'simple_video_recording'] preset: veryfast
+13:55:42.668: [x264 encoder: 'simple_video_recording'] profile: high
+13:55:42.668: [x264 encoder: 'simple_video_recording'] settings:
+13:55:42.668: 	rate_control: CRF
+13:55:42.668: 	bitrate:      0
+13:55:42.668: 	buffer size:  0
+13:55:42.668: 	crf:          16
+13:55:42.668: 	fps_num:      30
+13:55:42.668: 	fps_den:      1
+13:55:42.668: 	width:        1920
+13:55:42.668: 	height:       1080
+13:55:42.668: 	keyint:       250
+13:55:42.668: 
+13:55:42.675: ---------------------------------
+13:55:42.676: [FFmpeg aac encoder: 'simple_aac_recording0'] bitrate: 192, channels: 2, channel_layout: stereo
+13:55:42.676: 
+13:55:42.677: ==== Recording Start ===============================================
+13:55:42.677: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/nyquist/Videos/OBS/2025-10-31 13-55-42.mp4'...
+13:55:43.797: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:55:46.314: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/nyquist/Videos/OBS/2025-10-31 13-55-42.mp4' stopped
+13:55:46.314: Output 'simple_file_output': stopping
+13:55:46.314: Output 'simple_file_output': Total frames output: 70
+13:55:46.314: Output 'simple_file_output': Total drawn frames: 109
+13:55:46.314: ==== Recording Stop ================================================
+13:55:48.798: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:55:53.799: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:55:58.800: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:56:03.801: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:56:08.802: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:56:11.507: Settings changed (hotkeys)
+13:56:11.507: ------------------------------------------------
+13:56:13.802: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:56:18.803: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:56:23.804: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:56:28.805: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:56:33.805: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:56:34.910: xshm-input: Geometry 2560x1080 @ 0,0
+13:56:37.076: xshm-input: Geometry 1920x1080 @ 0,1080
+13:56:38.807: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:56:39.042: xshm-input: Geometry 2560x1080 @ 0,0
+13:56:43.808: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:56:48.809: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:56:53.810: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:56:58.811: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:57:03.812: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:57:08.813: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:57:13.813: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:57:18.814: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:57:19.430: ---------------------------------
+13:57:19.430: [x264 encoder: 'simple_video_recording'] preset: veryfast
+13:57:19.430: [x264 encoder: 'simple_video_recording'] profile: high
+13:57:19.430: [x264 encoder: 'simple_video_recording'] settings:
+13:57:19.430: 	rate_control: CRF
+13:57:19.430: 	bitrate:      0
+13:57:19.430: 	buffer size:  0
+13:57:19.430: 	crf:          16
+13:57:19.430: 	fps_num:      30
+13:57:19.430: 	fps_den:      1
+13:57:19.430: 	width:        1920
+13:57:19.430: 	height:       1080
+13:57:19.430: 	keyint:       250
+13:57:19.430: 
+13:57:19.439: ---------------------------------
+13:57:19.439: [FFmpeg aac encoder: 'simple_aac_recording0'] bitrate: 192, channels: 2, channel_layout: stereo
+13:57:19.439: 
+13:57:19.440: ==== Recording Start ===============================================
+13:57:19.440: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/nyquist/Videos/OBS/2025-10-31 13-57-19.mp4'...
+13:57:23.815: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:57:28.816: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:57:33.816: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:57:38.817: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:57:43.818: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:57:48.818: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:57:53.819: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:57:58.821: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:58:03.822: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:58:08.114: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/nyquist/Videos/OBS/2025-10-31 13-57-19.mp4' stopped
+13:58:08.114: Output 'simple_file_output': stopping
+13:58:08.114: Output 'simple_file_output': Total frames output: 1421
+13:58:08.114: Output 'simple_file_output': Total drawn frames: 1460
+13:58:08.114: ==== Recording Stop ================================================
+13:58:08.822: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:58:13.823: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:58:18.824: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:58:23.825: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:58:26.496: ---------------------------------
+13:58:26.496: [x264 encoder: 'simple_video_recording'] preset: veryfast
+13:58:26.496: [x264 encoder: 'simple_video_recording'] profile: high
+13:58:26.497: [x264 encoder: 'simple_video_recording'] settings:
+13:58:26.497: 	rate_control: CRF
+13:58:26.497: 	bitrate:      0
+13:58:26.497: 	buffer size:  0
+13:58:26.497: 	crf:          16
+13:58:26.497: 	fps_num:      30
+13:58:26.497: 	fps_den:      1
+13:58:26.497: 	width:        1920
+13:58:26.497: 	height:       1080
+13:58:26.497: 	keyint:       250
+13:58:26.497: 
+13:58:26.503: ---------------------------------
+13:58:26.503: [FFmpeg aac encoder: 'simple_aac_recording0'] bitrate: 192, channels: 2, channel_layout: stereo
+13:58:26.503: 
+13:58:26.504: ==== Recording Start ===============================================
+13:58:26.504: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/nyquist/Videos/OBS/2025-10-31 13-58-26.mp4'...
+13:58:28.826: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:58:33.827: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:58:38.828: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:58:43.829: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:58:48.829: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:58:53.830: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:58:58.831: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:58:59.715: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/nyquist/Videos/OBS/2025-10-31 13-58-26.mp4' stopped
+13:58:59.715: Output 'simple_file_output': stopping
+13:58:59.715: Output 'simple_file_output': Total frames output: 958
+13:58:59.715: Output 'simple_file_output': Total drawn frames: 997
+13:58:59.715: ==== Recording Stop ================================================
+13:59:03.832: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:59:06.751: ---------------------------------
+13:59:06.751: [x264 encoder: 'simple_video_recording'] preset: veryfast
+13:59:06.751: [x264 encoder: 'simple_video_recording'] profile: high
+13:59:06.751: [x264 encoder: 'simple_video_recording'] settings:
+13:59:06.751: 	rate_control: CRF
+13:59:06.751: 	bitrate:      0
+13:59:06.751: 	buffer size:  0
+13:59:06.751: 	crf:          16
+13:59:06.751: 	fps_num:      30
+13:59:06.751: 	fps_den:      1
+13:59:06.751: 	width:        1920
+13:59:06.751: 	height:       1080
+13:59:06.751: 	keyint:       250
+13:59:06.751: 
+13:59:06.758: ---------------------------------
+13:59:06.758: [FFmpeg aac encoder: 'simple_aac_recording0'] bitrate: 192, channels: 2, channel_layout: stereo
+13:59:06.758: 
+13:59:06.759: ==== Recording Start ===============================================
+13:59:06.759: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/nyquist/Videos/OBS/2025-10-31 13-59-06.mp4'...
+13:59:08.833: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:59:13.833: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:59:18.834: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:59:23.835: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:59:28.836: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:59:33.837: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:59:38.838: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:59:43.839: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:59:48.839: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:59:53.840: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+13:59:58.841: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+14:00:03.842: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+14:00:08.844: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+14:00:13.845: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+14:00:18.845: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+14:00:23.846: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+14:00:28.847: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+14:00:33.847: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+14:00:38.848: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+14:00:43.849: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+14:00:48.850: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+14:00:53.851: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+14:00:58.852: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+14:01:03.853: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+14:01:08.854: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+14:01:13.854: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+14:01:18.855: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+14:01:23.856: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+14:01:28.857: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+14:01:33.858: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+14:01:38.859: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+14:14:42.020: Last log entry repeated for 156 more lines
+14:14:42.020: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/nyquist/Videos/OBS/2025-10-31 13-59-06.mp4' stopped
+14:14:42.020: Output 'simple_file_output': stopping
+14:14:42.020: Output 'simple_file_output': Total frames output: 28019
+14:14:42.020: Output 'simple_file_output': Total drawn frames: 28058
+14:14:42.020: ==== Recording Stop ================================================
+14:14:43.987: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+14:14:48.988: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+14:14:53.471: ---------------------------------
+14:14:53.471: [x264 encoder: 'simple_video_recording'] preset: veryfast
+14:14:53.471: [x264 encoder: 'simple_video_recording'] profile: high
+14:14:53.471: [x264 encoder: 'simple_video_recording'] settings:
+14:14:53.471: 	rate_control: CRF
+14:14:53.471: 	bitrate:      0
+14:14:53.471: 	buffer size:  0
+14:14:53.471: 	crf:          16
+14:14:53.471: 	fps_num:      30
+14:14:53.471: 	fps_den:      1
+14:14:53.471: 	width:        1920
+14:14:53.471: 	height:       1080
+14:14:53.471: 	keyint:       250
+14:14:53.471: 
+14:14:53.478: ---------------------------------
+14:14:53.479: [FFmpeg aac encoder: 'simple_aac_recording0'] bitrate: 192, channels: 2, channel_layout: stereo
+14:14:53.479: 
+14:14:53.480: ==== Recording Start ===============================================
+14:14:53.480: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/nyquist/Videos/OBS/2025-10-31 14-14-53.mp4'...
+14:14:53.989: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+14:14:58.990: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+14:15:03.990: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+14:15:08.991: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+14:15:13.992: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+14:15:18.992: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+14:15:23.993: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+14:15:28.994: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+14:15:33.995: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+14:15:38.996: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+14:15:43.997: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+14:15:48.997: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+14:15:54.007: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+14:15:59.008: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+14:16:04.009: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+14:16:09.010: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+14:16:14.011: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+14:16:19.012: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+14:16:24.013: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+14:16:29.013: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+14:16:34.014: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+14:16:39.015: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+14:16:44.016: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+14:16:49.016: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+14:16:54.017: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+14:16:59.018: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+14:17:04.019: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+14:17:09.020: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+14:17:14.020: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+14:17:19.021: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+14:17:24.022: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+14:36:49.957: Last log entry repeated for 233 more lines
+14:36:49.957: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/nyquist/Videos/OBS/2025-10-31 14-14-53.mp4' stopped
+14:36:49.957: Output 'simple_file_output': stopping
+14:36:49.957: Output 'simple_file_output': Total frames output: 39455
+14:36:49.957: Output 'simple_file_output': Total drawn frames: 39494
+14:36:49.958: ==== Recording Stop ================================================
+14:36:54.206: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+14:36:59.207: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+14:37:04.208: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+14:37:09.209: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+14:37:14.210: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+14:37:19.210: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+14:37:24.211: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+14:37:29.212: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+14:37:34.212: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+14:37:39.213: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+14:37:44.214: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+14:37:49.215: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+14:37:54.216: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+14:37:59.217: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+14:38:04.218: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+14:38:09.219: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+14:38:14.220: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+14:38:19.220: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+14:38:24.221: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+14:38:29.222: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+14:38:34.223: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+14:38:39.224: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+14:38:44.226: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+14:38:49.227: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+14:38:54.228: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+14:38:59.229: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+14:39:04.230: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+14:39:09.231: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+14:39:14.233: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+14:39:19.234: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+14:39:24.234: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': Device or resource busy
+14:55:29.861: Last log entry repeated for 193 more lines
+14:55:29.861: The X11 connection broke (error 1). Did the X11 server die?

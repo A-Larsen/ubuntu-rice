@@ -1,0 +1,5 @@
+/home/nyquist/Documents/blender/Projects/tutorials/Geometry Nodes test 1/Untitled.blend
+/home/nyquist/Documents/blender/Projects/tutorials/Geometry Nodes test 1/geometry_nodes/ramp.blend
+/home/nyquist/Documents/blender/Projects/tutorials/Plate/plate2.blend
+/home/nyquist/Documents/blender/Projects/tutorials/Plate/plate.blend
+/home/nyquist/Documents/blender/Projects/tutorials/Donut/donut.blend

@@ -1,0 +1,2 @@
+#!/bin/sh
+feh --no-fehbg --bg-fill '/home/nyquist/Pictures/Wallpapers/pexels-nicole-avagliano-1132392-2749481.jpg' 

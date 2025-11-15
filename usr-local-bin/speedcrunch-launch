@@ -1,0 +1,18 @@
+#!/usr/bin/bash
+xdotool search --name speedcrunch
+if [ $? -ne 1 ]; then
+	pkill -f "speedcrunch"
+	exit 1
+fi
+speedcrunch &
+
+# wait for the application to start and be visable and then get window id
+err=1
+winid=0
+while [ $err -eq 1 ]; do
+	winid=$(xdotool search --onlyvisible --name speedcrunch)
+	err=$?
+done
+
+xdotool windowsize $winid 602 450
+xdotool windowmove $winid 1306 620

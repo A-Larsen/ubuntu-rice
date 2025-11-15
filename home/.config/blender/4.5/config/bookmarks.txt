@@ -1,0 +1,12 @@
+[Bookmarks]
+[Recent]
+/home/nyquist/Documents/blender/Projects/tutorials/Geometry Nodes test 1/
+/home/nyquist/Videos/blender/
+/home/nyquist/Documents/blender/Projects/tutorials/Geometry Nodes test 1/geometry_nodes/
+/home/nyquist/Documents/blender/Projects/tutorials/Plate/Poliigon_PlasticMoldWorn_7486/4K/
+/home/nyquist/Documents/blender/Projects/tutorials/Plate/Poliigon_PlasticMoldWorn_7486/
+/home/nyquist/Documents/blender/Projects/tutorials/Plate/
+/home/nyquist/Pictures/Blender/Render Dumps/
+/home/nyquist/Documents/blender/Projects/tutorials/Donut/Materials/
+/home/nyquist/Documents/blender/Projects/tutorials/Donut/textures/Poliigon_StoneQuartzite_8060/8K/
+/home/nyquist/Documents/blender/Projects/tutorials/Donut/textures/Poliigon_StoneQuartzite_8060/2K/

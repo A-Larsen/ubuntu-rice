@@ -1,0 +1,241 @@
+17:19:40.319: Using EGL/X11
+17:19:40.319: CPU Name: AMD Ryzen 7 6800H with Radeon Graphics
+17:19:40.319: CPU Speed: 400.000MHz
+17:19:40.320: Physical Cores: 8, Logical Cores: 16
+17:19:40.320: Physical Memory: 15188MB Total, 11282MB Free
+17:19:40.320: Kernel Version: Linux 6.8.0-87-generic
+17:19:40.320: Distribution: "Ubuntu" "24.04"
+17:19:40.320: Session Type: tty
+17:19:40.320: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.21.1
+17:19:40.321: Qt Version: 6.4.2 (runtime), 6.4.2 (compiled)
+17:19:40.321: Portable mode: false
+17:19:40.352: OBS 30.0.2.1-3build1 (linux)
+17:19:40.352: ---------------------------------
+17:19:40.352: ---------------------------------
+17:19:40.353: audio settings reset:
+17:19:40.353: 	samples per sec: 48000
+17:19:40.353: 	speakers:        2
+17:19:40.353: 	max buffering:   960 milliseconds
+17:19:40.353: 	buffering type:  dynamically increasing
+17:19:40.354: ---------------------------------
+17:19:40.354: Initializing OpenGL...
+17:19:40.415: Loading up OpenGL on adapter AMD AMD Radeon Graphics (radeonsi, rembrandt, LLVM 19.1.5, DRM 3.63, 6.8.0-87-generic)
+17:19:40.415: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 25.0.0-devel, shading language 4.60
+17:19:40.441: ---------------------------------
+17:19:40.441: video settings reset:
+17:19:40.441: 	base resolution:   1920x1080
+17:19:40.441: 	output resolution: 1920x1080
+17:19:40.441: 	downscale filter:  Bicubic
+17:19:40.441: 	fps:               30/1
+17:19:40.441: 	format:            NV12
+17:19:40.441: 	YUV mode:          Rec. 709/Partial
+17:19:40.442: NV12 texture support not available
+17:19:40.442: P010 texture support not available
+17:19:40.445: Audio monitoring device:
+17:19:40.445: 	name: Default
+17:19:40.445: 	id: default
+17:19:40.445: ---------------------------------
+17:19:40.455: Failed to load 'en-US' text for module: 'decklink-captions.so'
+17:19:40.462: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+17:19:40.470: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+17:19:40.470: Failed to initialize module 'decklink.so'
+17:20:05.584: [portals] Error retrieving D-Bus proxy: Error calling StartServiceByName for org.freedesktop.portal.Desktop: Timeout was reached
+17:20:05.584: [pipewire] No captures available
+17:20:07.968: VAAPI: API version 1.20
+17:20:07.969: FFmpeg VAAPI H264 encoding supported
+17:20:07.975: FFmpeg VAAPI HEVC encoding supported
+17:20:08.026: [obs-websocket] [obs_module_load] you can haz websockets (Version: 5.3.4 | RPC Version: 1)
+17:20:08.026: [obs-websocket] [obs_module_load] Qt version (compile-time): 6.4.2 | Qt version (run-time): 6.4.2
+17:20:08.026: [obs-websocket] [obs_module_load] Linked ASIO Version: 102801
+17:20:08.030: [obs-websocket] [obs_module_load] Module loaded.
+17:20:08.065: os_dlopen(libvlc.so.5->libvlc.so.5): libvlc.so.5: cannot open shared object file: No such file or directory
+17:20:08.065: 
+17:20:08.065: [vlc-video]: Couldn't find VLC installation, VLC video source disabled
+17:20:08.065: ---------------------------------
+17:20:08.065:   Loaded Modules:
+17:20:08.065:     vlc-video.so
+17:20:08.065:     text-freetype2.so
+17:20:08.065:     rtmp-services.so
+17:20:08.065:     obs-x264.so
+17:20:08.065:     obs-websocket.so
+17:20:08.065:     obs-transitions.so
+17:20:08.065:     obs-outputs.so
+17:20:08.065:     obs-filters.so
+17:20:08.065:     obs-ffmpeg.so
+17:20:08.065:     linux-v4l2.so
+17:20:08.065:     linux-pulseaudio.so
+17:20:08.065:     linux-pipewire.so
+17:20:08.065:     linux-jack.so
+17:20:08.065:     linux-capture.so
+17:20:08.065:     linux-alsa.so
+17:20:08.065:     image-source.so
+17:20:08.065:     frontend-tools.so
+17:20:08.065:     decklink-output-ui.so
+17:20:08.065:     decklink-captions.so
+17:20:08.065: ---------------------------------
+17:20:08.066: QWidget::setTabOrder: 'first' and 'second' must be in the same window
+17:20:08.066: ==== Startup complete ===============================================
+17:20:08.129: All scene data cleared
+17:20:08.129: ------------------------------------------------
+17:20:08.132: pulse-input: Server name: 'pulseaudio 16.1'
+17:20:08.133: pulse-input: An error occurred while getting the source info!
+17:20:08.133: [Loaded global audio device]: 'Desktop Audio'
+17:20:08.133:     - filter: 'Compressor' (compressor_filter)
+17:20:08.133: pulse-input: Server name: 'pulseaudio 16.1'
+17:20:08.133: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+17:20:08.133: pulse-input: Started recording from 'alsa_input.pci-0000_08_00.6.HiFi__hw_acp6x__source' (default)
+17:20:08.134: [Loaded global audio device]: 'Mic/Aux'
+17:20:08.135:     - filter: 'Noise Suppression' (noise_suppress_filter_v2)
+17:20:08.135:     - filter: 'Noise Suppression 2' (noise_suppress_filter_v2)
+17:20:08.135:     - filter: 'Noise Gate' (noise_gate_filter)
+17:20:08.135:     - filter: 'Compressor' (compressor_filter)
+17:20:08.135:     - filter: 'Limiter' (limiter_filter)
+17:20:08.135: xshm-input: Geometry 1920x1080 @ 0,0
+17:20:08.136: xshm-input: failed to update geometry !
+17:20:08.141: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': No such device
+17:20:08.142: Switched to scene 'Scene'
+17:20:08.142: ------------------------------------------------
+17:20:08.142: Loaded scenes:
+17:20:08.142: - scene 'Scene':
+17:20:08.142:     - source: 'Screen Capture (XSHM)' (xshm_input)
+17:20:08.142:     - source: 'Screen Capture (XSHM) 2' (xshm_input)
+17:20:08.142:     - source: 'Audio Capture Device (ALSA)' (alsa_input_capture)
+17:20:08.142: ------------------------------------------------
+17:20:08.244: [rtmp-services plugin] Successfully updated file 'services.json' (version 281)
+17:20:08.245: [rtmp-services plugin] Successfully updated package (version 281)
+17:20:08.726: adding 64 milliseconds of audio buffering, total audio buffering is now 64 milliseconds (source: Mic/Aux)
+17:20:08.726: 
+17:20:09.142: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': No such device
+17:20:11.144: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': No such device
+17:20:14.145: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': No such device
+17:20:17.912: alsa-input: PCM 'default' rate set to 44100
+17:20:17.912: alsa-input: PCM 'default' channels set to 2
+17:20:17.915: User added source 'Audio Capture Device (ALSA) 2' (alsa_input_capture) to scene 'Scene'
+17:20:18.146: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': No such device
+17:20:20.242: alsa-input: PCM 'front:CARD=Generic_1,DEV=0' rate set to 44100
+17:20:20.242: alsa-input: PCM 'front:CARD=Generic_1,DEV=0' channels set to 2
+17:20:20.993: adding 682 milliseconds of audio buffering, total audio buffering is now 746 milliseconds (source: Audio Capture Device (ALSA) 2)
+17:20:20.993: 
+17:20:23.147: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': No such device
+17:20:28.148: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': No such device
+17:20:33.149: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': No such device
+17:20:38.150: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': No such device
+17:20:43.151: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': No such device
+17:20:43.190: pulse-input: Stopped recording from 'alsa_input.pci-0000_08_00.6.HiFi__hw_Generic_1__source'
+17:20:43.190: pulse-input: Got 2635 packets with 1681276 frames
+17:20:43.191: pulse-input: Server name: 'pulseaudio 16.1'
+17:20:43.191: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+17:20:43.191: pulse-input: Started recording from 'alsa_input.pci-0000_08_00.6.HiFi__hw_Generic_1__source'
+17:20:47.670: pulse-input: Stopped recording from 'alsa_input.pci-0000_08_00.6.HiFi__hw_acp6x__source'
+17:20:47.670: pulse-input: Got 0 packets with 0 frames
+17:20:47.670: pulse-input: Server name: 'pulseaudio 16.1'
+17:20:47.670: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+17:20:47.670: pulse-input: Started recording from 'alsa_input.pci-0000_08_00.6.HiFi__hw_acp6x__source'
+17:20:48.151: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': No such device
+17:20:53.152: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': No such device
+17:20:58.153: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': No such device
+17:21:01.009: pulse-input: Stopped recording from 'default'
+17:21:01.009: pulse-input: Got 994 packets with 639520 frames
+17:21:01.010: pulse-input: Server name: 'pulseaudio 16.1'
+17:21:01.010: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+17:21:01.010: pulse-input: Started recording from 'alsa_input.pci-0000_08_00.6.HiFi__hw_acp6x__source' (default)
+17:21:03.153: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': No such device
+17:21:08.154: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': No such device
+17:21:13.155: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': No such device
+17:21:18.156: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': No such device
+17:21:23.157: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': No such device
+17:21:28.158: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': No such device
+17:21:33.159: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': No such device
+17:21:38.161: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': No such device
+17:21:43.162: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': No such device
+17:21:48.163: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': No such device
+17:21:53.164: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': No such device
+17:21:58.165: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': No such device
+17:22:03.167: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': No such device
+17:22:08.168: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': No such device
+17:22:13.169: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': No such device
+17:22:18.171: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': No such device
+17:22:23.172: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': No such device
+17:22:28.173: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': No such device
+17:22:33.175: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': No such device
+17:22:38.176: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': No such device
+17:22:43.177: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': No such device
+17:22:48.178: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': No such device
+17:22:53.180: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': No such device
+17:22:58.181: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': No such device
+17:23:03.182: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': No such device
+17:23:08.183: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': No such device
+17:23:13.184: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': No such device
+17:23:18.185: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': No such device
+17:23:23.195: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': No such device
+17:23:28.196: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': No such device
+17:23:33.197: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': No such device
+18:54:49.714: Last log entry repeated for 1095 more lines
+18:54:49.714: ==== Shutting down ==================================================
+18:54:49.737: pulse-input: Stopped recording from 'alsa_input.pci-0000_08_00.6.HiFi__hw_acp6x__source'
+18:54:49.737: pulse-input: Got 569106 packets with 270174816 frames
+18:54:54.363: alsa-input: Failed to open 'front:CARD=CODEC,DEV=0': No such device
+18:54:54.957: All scene data cleared
+18:54:54.957: ------------------------------------------------
+18:54:55.022: [obs-websocket] [obs_module_unload] Shutting down...
+18:54:55.022: Tried to call obs_frontend_remove_event_callback with no callbacks!
+18:54:55.022: [obs-websocket] [obs_module_unload] Finished shutting down.
+18:54:55.026: [Scripting] Total detached callbacks: 0
+18:54:55.027: Freeing OBS context data
+18:54:55.042: == Profiler Results =============================
+18:54:55.042: run_program_init: 27915 ms
+18:54:55.042:  ┣OBSApp::AppInit: 5.52 ms
+18:54:55.042:  ┃ ┗OBSApp::InitLocale: 1.47 ms
+18:54:55.042:  ┗OBSApp::OBSInit: 27868.7 ms
+18:54:55.042:    ┣obs_startup: 1.35 ms
+18:54:55.042:    ┗OBSBasic::OBSInit: 27835.5 ms
+18:54:55.042:      ┣OBSBasic::InitBasicConfig: 0.084 ms
+18:54:55.042:      ┣OBSBasic::ResetAudio: 0.229 ms
+18:54:55.042:      ┣OBSBasic::ResetVideo: 92.701 ms
+18:54:55.042:      ┃ ┗obs_init_graphics: 88.704 ms
+18:54:55.042:      ┃   ┗shader compilation: 26.256 ms
+18:54:55.042:      ┣OBSBasic::InitOBSCallbacks: 0.008 ms
+18:54:55.042:      ┣OBSBasic::InitHotkeys: 0.018 ms
+18:54:55.042:      ┣obs_load_all_modules2: 27619.6 ms
+18:54:55.042:      ┃ ┣obs_init_module(decklink-captions.so): 0 ms
+18:54:55.042:      ┃ ┣obs_init_module(decklink-output-ui.so): 0 ms
+18:54:55.042:      ┃ ┣obs_init_module(decklink.so): 0.133 ms
+18:54:55.042:      ┃ ┣obs_init_module(frontend-tools.so): 24.333 ms
+18:54:55.042:      ┃ ┣obs_init_module(image-source.so): 0.008 ms
+18:54:55.042:      ┃ ┣obs_init_module(linux-alsa.so): 0.002 ms
+18:54:55.042:      ┃ ┣obs_init_module(linux-capture.so): 0.483 ms
+18:54:55.042:      ┃ ┣obs_init_module(linux-jack.so): 0.002 ms
+18:54:55.042:      ┃ ┣obs_init_module(linux-pipewire.so): 25036.2 ms
+18:54:55.042:      ┃ ┣obs_init_module(linux-pulseaudio.so): 0.004 ms
+18:54:55.042:      ┃ ┣obs_init_module(linux-v4l2.so): 3.258 ms
+18:54:55.042:      ┃ ┣obs_init_module(obs-ffmpeg.so): 2286.26 ms
+18:54:55.042:      ┃ ┃ ┗nvenc_check: 1.219 ms
+18:54:55.042:      ┃ ┣obs_init_module(obs-filters.so): 0.024 ms
+18:54:55.042:      ┃ ┣obs_init_module(obs-outputs.so): 0.005 ms
+18:54:55.042:      ┃ ┣obs_init_module(obs-transitions.so): 0.008 ms
+18:54:55.042:      ┃ ┣obs_init_module(obs-websocket.so): 4.063 ms
+18:54:55.042:      ┃ ┣obs_init_module(obs-x264.so): 0.007 ms
+18:54:55.042:      ┃ ┣obs_init_module(rtmp-services.so): 0.563 ms
+18:54:55.042:      ┃ ┣obs_init_module(text-freetype2.so): 0.016 ms
+18:54:55.042:      ┃ ┗obs_init_module(vlc-video.so): 0.134 ms
+18:54:55.042:      ┣OBSBasic::InitService: 1.211 ms
+18:54:55.042:      ┣OBSBasic::ResetOutputs: 0.279 ms
+18:54:55.042:      ┣OBSBasic::CreateHotkeys: 0.021 ms
+18:54:55.042:      ┣OBSBasic::InitPrimitives: 0.305 ms
+18:54:55.042:      ┗OBSBasic::Load: 77.88 ms
+18:54:55.042: obs_hotkey_thread(25 ms): min=0.054 ms, median=0.359 ms, max=439.319 ms, 99th percentile=2.824 ms, 99.9928% below 25 ms
+18:54:55.042: audio_thread(Audio): min=0.003 ms, median=0.043 ms, max=0.597 ms, 99th percentile=0.108 ms
+18:54:55.042: obs_graphics_thread(33.3333 ms): min=0.109 ms, median=4.218 ms, max=434.954 ms, 99th percentile=6.493 ms, 99.9907% below 33.333 ms
+18:54:55.042:  ┣tick_sources: min=0 ms, median=3.208 ms, max=434.228 ms, 99th percentile=5.509 ms
+18:54:55.042:  ┣output_frame: min=0.089 ms, median=0.375 ms, max=2.539 ms, 99th percentile=0.707 ms
+18:54:55.042:  ┃ ┗gs_context(video->graphics): min=0.089 ms, median=0.374 ms, max=2.538 ms, 99th percentile=0.706 ms
+18:54:55.042:  ┃   ┣render_video: min=0.006 ms, median=0.135 ms, max=1.791 ms, 99th percentile=0.238 ms
+18:54:55.042:  ┃   ┃ ┗render_main_texture: min=0.004 ms, median=0.131 ms, max=1.786 ms, 99th percentile=0.232 ms
+18:54:55.043:  ┃   ┗gs_flush: min=0.001 ms, median=0.005 ms, max=0.144 ms, 99th percentile=0.011 ms
+18:54:55.043:  ┗render_displays: min=0.002 ms, median=0.554 ms, max=9.869 ms, 99th percentile=0.991 ms
+18:54:55.043: =================================================
+18:54:55.043: == Profiler Time Between Calls ==================
+18:54:55.043: obs_hotkey_thread(25 ms): min=25.077 ms, median=25.485 ms, max=464.436 ms, 53.9609% within ±2% of 25 ms (0% lower, 46.0391% higher)
+18:54:55.043: obs_graphics_thread(33.3333 ms): min=2.418 ms, median=33.333 ms, max=434.956 ms, 97.1749% within ±2% of 33.333 ms (1.47789% lower, 1.3472% higher)
+18:54:55.043: =================================================
+18:54:55.061: Number of memory leaks: 0

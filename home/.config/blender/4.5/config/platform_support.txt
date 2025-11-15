@@ -1,0 +1,2 @@
+{AMD/AMD Radeon Graphics (radeonsi, rembrandt, LLVM 19.1.5, DRM 3.63, 6.8.0-86-generic)/4.6 (Core Profile) Mesa 25.0.0-devel}=SUPPORTED
+{AMD/AMD Radeon Graphics (radeonsi, rembrandt, LLVM 19.1.5, DRM 3.63, 6.8.0-87-generic)/4.6 (Core Profile) Mesa 25.0.0-devel}=SUPPORTED

@@ -1,0 +1,39 @@
+#!/usr/bin/sh
+sudo apt -y update && sudo apt -y upgrade
+sudo timedatectl set-timezone America/Detroit
+sudo ln -sf /usr/share/zoneinfo/America/Detroit /etc/localtime
+sudo lvextend -l +100%FREE /dev/ubuntu-vg/ubuntu-lv
+sudo resize2fs /dev/ubuntu-vg/ubuntu-lv
+sudo cp -r ./home/* ~/
+sudo cp -r ./home/.* ~/
+sudo chown -R $USER:$USER ~/.config
+sudo chown -R $USER:$USER ~/.fehbg
+sudo chown -R $USER:$USER ~/.sqliterc
+sudo chown -R $USER:$USER ~/.xinitrc
+sudo chown -R $USER:$USER ~/.zshrc
+sudo chown -R $USER:$USER ~/Audio
+sudo chown -R $USER:$USER ~/Development
+sudo chown -R $USER:$USER ~/Documents
+sudo chown -R $USER:$USER ~/Downloads
+sudo chown -R $USER:$USER ~/Pictures
+sudo chown -R $USER:$USER ~/Videos
+mkdir -p /usr/local/bin
+mkdir -p /usr/local/include
+mkdir -p /usr/local/lib
+mkdir -p /usr/local/share
+./install-packages
+git config --global user.name "A-Larsen"
+git config --global user.email "austin.larsen@mailfence.com"
+sudo cp -r usr-local-bin/* /usr/local/bin/
+sudo cp -r usr-local-include/* /usr/local/include/
+sudo cp -r usr-local-lib/* /usr/local/lib/
+sudo cp -r usr-local-share/* /usr/local/share/
+sudo chsh -s /usr/bin/zsh
+sudo unminimize
+cd ~/.config/zsh
+git clone https://github.com/zsh-users/zsh-autosuggestions
+git clone https://github.com/le0me55i/zsh-extract.git
+git clone https://github.com/softmoth/zsh-vim-mode.git
+
+echo "make sure to exit and log back in to apply the zsh shell"
+echo "also maske sure to run 'after-startx' after entering dwm"

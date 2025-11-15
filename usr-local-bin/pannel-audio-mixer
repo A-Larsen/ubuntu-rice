@@ -1,0 +1,27 @@
+#!/usr/bin/bash
+xdotool search --name pulsemixer
+if [ $? -ne 1 ]; then
+	pkill -f "pulsemixer"
+	exit 1
+fi
+
+# xdotool search --name htop
+# if [ $? -ne 1 ]; then
+# 	pkill -f "htop"
+# fi
+
+alacritty --config-file=$HOME/.config/alacritty/popup.toml --title pulsemixer -e "pulsemixer" &
+
+# wait for the application to start and be visable and then get window id
+err=1
+winid=0
+while [ $err -eq 1 ]; do
+	winid=$(xdotool search --name pulsemixer)
+	err=$?
+done
+
+padding=15
+y=28
+h=580
+xdotool windowsize $winid 602 $h
+xdotool windowmove $winid 1306 $y

@@ -1,0 +1,40 @@
+= Austin's Ubuntu Rice
+This is my own custom rice for ubuntu server. It is my daily drive for my
+desktop
+
+WARNING: This is still being worked on. There is no garantee this will work on
+         your system. It is a rice for my own custom needs anyways.
+
+== Installing
+1. Install the minimal version of Ubuntu server
+2. Start your new ubuntu server and clone this repository where you'd like
+3. cd to this directory and run `./install`
+4. Exit your shell and relogin so you have the new zsh shell
+5. Run `startx` to start your graphical environment (dwm)
+6. (optional) Once in dwm press *Super-Shift-Enter* to start alacritty
+7. (optional) cd to this repository
+8. (optional) run `./after-startx` and follow the instructions
+
+== Q and A
+
+=== Why Ubuntu?
+Even though I have used other minimal distrobutions such as Gentoo and Arch
+Linux, I still perfer Ubuntu. Why, you ask? That is because it has a very large
+support for many pacakges. you don't have to worry whether or not you're
+distrobution has any support for the software you need to install. Yes,
+compiling from source is cool, but it also takes year off your life and might
+end up compiling all day rather than doing what you were supposed to be doing in
+the first place.
+
+== Why Ubuntu Server?
+It is more minimal than Ubuntu desktop and I do not need all of the extra things
+Ubuntu desktop includes, such as gnome applications.
+
+=== Why aren't shell scripts aren't optimized?
+I know, I could have wrote my shell scripts in a way that would be more optimal.
+I could have also made the whole process a bit better, for example, grabing the
+vulkan sdk from the website instead of storing it here. But this is a work in
+progress. Currently I am just trying to make sure the rice even installs
+correctly. Once I know that everything is working well then I'll optimize my
+shell scripts and processes. Like, doing things such as removing some unneeded
+repetition and some uneeded or excessive files.

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=mixer
+Comment=
+Exec=/usr/local/bin/pannel-audio-mixer
+Icon=audio-headphones
+Path=
+Terminal=false
+StartupNotify=false
