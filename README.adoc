@@ -64,6 +64,8 @@ compiling from source is cool, but it also takes year off your life and you
 might end up compiling all day rather than doing what you were supposed to be
 doing in the first place.
 
+image::gumball-arch.png[]
+
 === Why Ubuntu Server?
 It is more minimal than Ubuntu desktop and I do not need all of the extra things
 Ubuntu desktop includes, such as gnome applications.
