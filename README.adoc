@@ -81,3 +81,7 @@ Windows is great for some things, but is not very customizable or good for
 developing lower level applications. Linux gives you more control and ease when
 working with development tools. Not to mention that you can create windows
 applications in linux 😛.
+
+== Other (unnecessary addition)
+I'm using emoji's to make this look more appealing. It's the new hip things to
+do I suppose. LOOK HOW MUCH COOL MY README LOOKS NOW
