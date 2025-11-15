@@ -42,3 +42,8 @@ progress. Currently I am just trying to make sure the rice even installs
 correctly. Once I know that everything is working well then I'll optimize my
 shell scripts and processes. Like, doing things such as removing some unneeded
 repetition and some uneeded or excessive files.
+
+=== Why not use windows?
+Windows is great for some things, but is not very customizable or good for
+developing lower level applications. Linux gives you more control and ease when
+working with development tools. You can create windows applications in linux 😛.
