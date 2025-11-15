@@ -53,8 +53,6 @@ https://dwm.suckless.org/patches/nametag/[nametag] patch. My
 https://dwm.suckless.org/patches/mmnametags/[mmnametags] patch is
 just an change to this patch.
 
-Extra keyboard shortcuts
-
 == Q and A
 
 === Why Ubuntu?
