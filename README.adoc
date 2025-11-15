@@ -51,7 +51,7 @@ Extra keyboard shortcuts:
 I would also like to give a special acknowledgement to the
 https://dwm.suckless.org/patches/nametag/[nametag] patch. My
 https://dwm.suckless.org/patches/mmnametags/[mmnametags] patch is
-just an change to this patch.
+just some changes and additions to this patch.
 
 == Q and A
 
