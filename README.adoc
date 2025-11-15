@@ -4,7 +4,7 @@ image::rice.png[]
 
 == Description
 
-This is my own custom rice for ubuntu server. It is my daily drive for my
+This is my own custom rice for ubuntu server. It is my daily driver for my
 desktop. It is intended to be very minamilist rice with only what I need, no
 extra bloat
 
