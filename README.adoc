@@ -6,7 +6,7 @@ image::rice.png[]
 
 This is my own custom rice for ubuntu server. It is my daily driver for my
 desktop. It is intended to be a very minamilist rice with only what I need, no
-extra bloat
+extra bloat.
 
 WARNING: This is still being worked on. There is no garantee this will work on
          your system. It is a rice for my own custom needs anyways.
@@ -24,7 +24,7 @@ WARNING: This is still being worked on. There is no garantee this will work on
 NOTE: You may have to edit the config variables in the `install` script. You
       should find it at the top of the scrip. For example, if you you want to
       install a different version of vulkan you can change the `VULKANVERSION`
-      variable
+      variable.
 
 == How to use
 Check out this https://dwm.suckless.org/tutorial/[tutorial]. Everything should
@@ -39,7 +39,7 @@ Patches added to dwm (that I can remember):
 * https://dwm.suckless.org/patches/xfce4-panel/[xfce4pannel]
 * https://dwm.suckless.org/patches/gaps/[gaps]
 
-Extra keyboard shortcuts
+Extra keyboard shortcuts:
 
 [%header,cols="1,1"]
 |===
