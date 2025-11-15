@@ -24,7 +24,7 @@ NOTE: You may have to edit the config variables in the `install` script. You
 
 === Why Ubuntu?
 Even though I have used other minimal distrobutions such as Gentoo and Arch
-Linux, I still perfer Ubuntu. Why, you ask? That is because it has a very large
+Linux, I still perfer Ubuntu. Why, you ask? That is because it has a large
 support for many pacakges. you don't have to worry whether or not you're
 distrobution has any support for the software you need to install. Yes,
 compiling from source is cool, but it also takes year off your life and might
