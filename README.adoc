@@ -49,8 +49,9 @@ Extra keyboard shortcuts
 |===
 
 I would also like to give a special acknowledgement to the
-https://dwm.suckless.org/patches/nametag/[nametag] patch. My mmnametag patch is
-just an edit of this patch.
+https://dwm.suckless.org/patches/nametag/[nametag] patch. My
+https://dwm.suckless.org/patches/mmnametags/[mmnametags] patch is
+just an change to this patch.
 
 Extra keyboard shortcuts
 
