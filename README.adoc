@@ -22,7 +22,7 @@ WARNING: This is still being worked on. There is no garantee this will work on
 9. (optional) run `./after-startx` and follow the instructions
 
 NOTE: You may have to edit the config variables in the `install` script. You
-      should find it at the top of the scrip. For example, if you you want to
+      should find it at the top of the script. For example, if you you want to
       install a different version of vulkan you can change the `VULKANVERSION`
       variable.
 
