@@ -1,4 +1,7 @@
 = Austin's Ubuntu Rice
+
+image::rice.png[]
+
 This is my own custom rice for ubuntu server. It is my daily drive for my
 desktop
 
