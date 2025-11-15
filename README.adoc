@@ -11,7 +11,7 @@ extra bloat.
 WARNING: This is still being worked on. There is no garantee this will work on
          your system. It is a rice for my own custom needs anyways.
 
-== ⬇️Installing
+== ⬇️ Installing
 1. Install the minimal version of Ubuntu server
 2. Start your new ubuntu server and clone this repository where you'd like
 4. `cd` to this repository and run `./install`
