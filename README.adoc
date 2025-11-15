@@ -85,4 +85,5 @@ applications in linux 😛.
 == 👀 Other (unnecessary addition)
 I'm using emoji's in my readme to make this look more appealing 💯. It's the new
 hip thing to do I suppose. LOOK HOW MUCH COOLER MY README LOOKS NOW. LOOK AT IT
+
 image::incredibles_dad.jpg[]
