@@ -68,7 +68,7 @@ doing in the first place.
 It is more minimal than Ubuntu desktop and I do not need all of the extra things
 Ubuntu desktop includes, such as gnome applications.
 
-=== Why aren't shell scripts aren't optimized?
+=== Why aren't the shell scripts optimized?
 I know, I could have wrote my shell scripts in a way that would be more optimal.
 I could have also made the whole process a bit better. But this is a work in
 progress. Currently I am just trying to make sure the rice even installs
