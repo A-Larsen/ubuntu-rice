@@ -26,6 +26,33 @@ NOTE: You may have to edit the config variables in the `install` script. You
       install a different version of vulkan you can change the `VULKANVERSION`
       variable
 
+== How to use
+Check out this https://dwm.suckless.org/tutorial/[tutorial]. Everything should
+be the same, the only difference being that I changed `ALT` to be `Super`
+(windows key). I also added patches from the dwm site and did some of my own custom
+changes to the source code.
+
+Patches added to dwm (that I can remember):
+
+* https://dwm.suckless.org/patches/mmnametags/[mmnametags]
+* https://dwm.suckless.org/patches/movestack/[movestack]
+* https://dwm.suckless.org/patches/xfce4-panel/[xfce4pannel]
+* https://dwm.suckless.org/patches/gaps/[gaps]
+
+Extra keyboard shortcuts
+
+[%header,cols="1,1"]
+|===
+| shortcut       | operation
+| Super+Ctrl+s   | flameshot screenshot
+|===
+
+I would also want to give a special acknowledgement to the
+https://dwm.suckless.org/patches/nametag/[nametag] patch. My mmnametag patch is
+just an edit of this patch.
+
+Extra keyboard shortcuts
+
 == Q and A
 
 === Why Ubuntu?
