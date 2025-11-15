@@ -3,7 +3,8 @@
 image::rice.png[]
 
 This is my own custom rice for ubuntu server. It is my daily drive for my
-desktop
+desktop. It is intended to be very minamilist rice with only what I need, no
+extra bloat
 
 WARNING: This is still being worked on. There is no garantee this will work on
          your system. It is a rice for my own custom needs anyways.
