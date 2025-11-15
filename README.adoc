@@ -47,7 +47,7 @@ Extra keyboard shortcuts
 | Super+Ctrl+s   | flameshot screenshot
 |===
 
-I would also want to give a special acknowledgement to the
+I would also like to give a special acknowledgement to the
 https://dwm.suckless.org/patches/nametag/[nametag] patch. My mmnametag patch is
 just an edit of this patch.
 
