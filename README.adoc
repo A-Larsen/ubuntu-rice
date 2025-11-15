@@ -5,7 +5,7 @@ image::rice.png[]
 == Description
 
 This is my own custom rice for ubuntu server. It is my daily driver for my
-desktop. It is intended to be very minamilist rice with only what I need, no
+desktop. It is intended to be a very minamilist rice with only what I need, no
 extra bloat
 
 WARNING: This is still being worked on. There is no garantee this will work on
@@ -45,6 +45,7 @@ Extra keyboard shortcuts
 |===
 | shortcut       | operation
 | Super+Ctrl+s   | flameshot screenshot
+| Super+n        | name the current tag
 |===
 
 I would also like to give a special acknowledgement to the
