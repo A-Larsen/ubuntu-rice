@@ -2608,7 +2608,6 @@ sudo cp -r share/nvim /usr/local/share/
 rm -rf nvim-linux-x86_64 nvim-linux-x86_64.tar.gz
 
 # - vulkan install
-
 mkdir -p ~/Development/tools/
 cd ~/Development/tools/
 wget https://sdk.lunarg.com/sdk/download/${VULKANVERSION}/linux/vulkansdk-linux-x86_64-${VULKANVERSION}.tar.xz
