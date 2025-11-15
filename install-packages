@@ -1,6 +1,13 @@
 #!/usr/bin/sh
 
-# apt packages
+# CONFIG VARIABLES
+# ================
+
+VULKANVERSION="1.4.328.1"
+
+# APT PACKAGES
+# ============
+
 sudo apt -y install acl
 sudo apt -y install adduser
 sudo apt -y install adwaita-icon-theme
@@ -2567,11 +2574,15 @@ sudo apt -y install zsh
 sudo apt -y install zstd
 sudo apt -y install fzf
 
-# snap packages
+# SNAP PACKAGES
+# =============
 sudo snap install discord
 sudo snap install blender --classic
 
-# custom installs
+# CUSTOM INSTALLS
+# ===============
+
+# - dwm install
 mkdir -p ~/Downloads
 cd ~/Downloads
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
@@ -2583,6 +2594,8 @@ git clone https://github.com/A-Larsen/dwm.git
 cd dwm
 rm -rf config.h
 sudo make && sudo make clean install
+
+# - neovim install
 cd ~/.config
 git clone https://github.com/A-Larsen/nvim.git
 cd ~/Downloads
@@ -2593,3 +2606,22 @@ sudo cp bin/nvim /usr/local/bin/
 sudo cp -r lib/nvim /usr/local/lib/
 sudo cp -r share/nvim /usr/local/share/
 rm -rf nvim-linux-x86_64 nvim-linux-x86_64.tar.gz
+
+# - vulkan install
+
+mkdir -p ~/Development/tools/
+cd ~/Development/tools/
+wget https://sdk.lunarg.com/sdk/download/${VULKANVERSION}/linux/vulkansdk-linux-x86_64-${VULKANVERSION}.tar.xz
+tar -xzf vulkansdk-linux-x86_64-${VULKANVERSION}.tar.xz
+rm -rf vulkansdk-linux-x86_64-${VULKANVERSION}.tar.xz
+cd vulkansdk-linux-x86_64-${VULKANVERSION}
+./vulkansdk -j 1
+VULKAN_SDK=${PWD}/x86_64
+sudo cp -r $VULKAN_SDK/include/* /usr/local/include/
+sudo cp -P $VULKAN_SDK/lib/libvulkan.so* /usr/local/lib/
+sudo cp $VULKAN_SDK/lib/libVkLayer_*.so /usr/local/lib/
+sudo mkdir -p /usr/local/share/vulkan/explicit_layer.d
+sudo cp $VULKAN_SDK/share/vulkan/explicit_layer.d/VkLayer_*.json /usr/local/share/vulkan/explicit_layer.d
+mkdir -p ~/Development/tools/vulkan-${VULKANVERSION}/x86_64/bin/
+sudo cp $VULKAN_SDK/bin/* ~/Development/tools/vulkan-${VULKANVERSION}/x86_64/bin/
+sudo rm -rf "source"

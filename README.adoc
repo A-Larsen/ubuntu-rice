@@ -15,6 +15,11 @@ WARNING: This is still being worked on. There is no garantee this will work on
 7. (optional) cd to this repository
 8. (optional) run `./after-startx` and follow the instructions
 
+NOTE: You may have to edit the config variables in the `install` script. You
+      should find it at the top of the scrip. for example, if you you want to
+      install a different version of vulkan you can change the `VULKANVERSION`
+      variable
+
 == Q and A
 
 === Why Ubuntu?
@@ -32,8 +37,7 @@ Ubuntu desktop includes, such as gnome applications.
 
 === Why aren't shell scripts aren't optimized?
 I know, I could have wrote my shell scripts in a way that would be more optimal.
-I could have also made the whole process a bit better, for example, grabing the
-vulkan sdk from the website instead of storing it here. But this is a work in
+I could have also made the whole process a bit better. But this is a work in
 progress. Currently I am just trying to make sure the rice even installs
 correctly. Once I know that everything is working well then I'll optimize my
 shell scripts and processes. Like, doing things such as removing some unneeded
