@@ -1,9 +1,5 @@
 #!/usr/bin/bash
-# gh auth login
-read -p "If you have a github, would you like to authorize it? You'll need to sign in from your browser (y)Yes/(n)No:- \n" choice
 
-case $choice in
-[yY]* ) gh auth login ;;
-[nN]* ) ;;
-*) exit ;;
-esac
+# SETUP GITHUB
+# ------------
+ gh auth login

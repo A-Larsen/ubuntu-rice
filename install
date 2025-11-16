@@ -35,7 +35,7 @@ sudo cp -r usr-local-lib/* /usr/local/lib/
 sudo cp -r usr-local-share/* /usr/local/share/
 ./install-packages
 
-# SET TMIE ZOME
+# SET TIME ZOME
 # -------------
 cd /usr/share/zoneinfo
 echo "what is your time zone?\n"
