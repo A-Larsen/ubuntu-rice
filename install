@@ -54,6 +54,7 @@ git config --global user.email "$email"
 
 
 # MAKE MAN PAGES AVAILABLE
+# ------------------------
 sudo unminimize
 
 
