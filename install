@@ -1,12 +1,15 @@
 #!/usr/bin/bash
+
+# UPDATE
+# ------
 sudo apt -y update && sudo apt -y upgrade
-cd /usr/share/zoneinfo
-echo "what is your time zone?\n"
-zone="$(fzf)"
-sudo timedatectl set-timezone $zone
-sudo ln -sf /usr/share/zoneinfo/${zone} /etc/localtime
+
+# MAKE SURE YOUR UBUNTU DRIVE USES ENTIRE DIRVE
 sudo lvextend -l +100%FREE /dev/ubuntu-vg/ubuntu-lv
 sudo resize2fs /dev/ubuntu-vg/ubuntu-lv
+
+# SET UP ENVIRONMENT AND INSTALL ALL THE PACKAGES
+# -----------------------------------------------
 cd ~
 sudo cp -r ./home/* ~/
 sudo cp -r ./home/.* ~/
@@ -25,22 +28,44 @@ mkdir -p /usr/local/bin
 mkdir -p /usr/local/include
 mkdir -p /usr/local/lib
 mkdir -p /usr/local/share
+sudo cp -r usr-local-bin/* /usr/local/bin/
+sudo cp -r usr-local-include/* /usr/local/include/
+sudo cp -r usr-local-lib/* /usr/local/lib/
+sudo cp -r usr-local-share/* /usr/local/share/
 ./install-packages
+
+# SET TMIE ZOME
+# -------------
+cd /usr/share/zoneinfo
+echo "what is your time zone?\n"
+zone="$(fzf)"
+sudo timedatectl set-timezone $zone
+sudo ln -sf /usr/share/zoneinfo/${zone} /etc/localtime
+
+# SET GITHUB INFORMATION
+# ----------------------
+# The rest of the gethub setup will beed to be done in a
+# graphical enironment. The after-startx does this.
 
 read -p "what is your github username?\n" username
 git config --global user.name "$username"
 read -p "what is your github email?\n" email
 git config --global user.email "$email"
-sudo cp -r usr-local-bin/* /usr/local/bin/
-sudo cp -r usr-local-include/* /usr/local/include/
-sudo cp -r usr-local-lib/* /usr/local/lib/
-sudo cp -r usr-local-share/* /usr/local/share/
-sudo chsh -s /usr/bin/zsh
+
+
+# MAKE MAN PAGES AVAILABLE
 sudo unminimize
+
+
+# SET UP ZSH
+# ----------
+sudo chsh -s /usr/bin/zsh
 cd ~/.config/zsh
 git clone https://github.com/zsh-users/zsh-autosuggestions
 git clone https://github.com/le0me55i/zsh-extract.git
 git clone https://github.com/softmoth/zsh-vim-mode.git
 
+# NEXT
+# ----
 echo "make sure to exit and log back in to apply the zsh shell"
 echo "also maske sure to run 'after-startx' after entering dwm"
