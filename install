@@ -6,6 +6,8 @@ sudo apt -y update && sudo apt -y upgrade
 
 # EXTEND DRIVE
 # ------------
+# TODO
+# make a method to search drives so that you extend the corrent one
 sudo lvextend -l +100%FREE /dev/ubuntu-vg/ubuntu-lv
 sudo resize2fs /dev/ubuntu-vg/ubuntu-lv
 
