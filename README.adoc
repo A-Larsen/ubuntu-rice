@@ -37,7 +37,7 @@ Patches added to dwm (that I can remember):
 * https://dwm.suckless.org/patches/mmnametags/[mmnametags]
 * https://dwm.suckless.org/patches/movestack/[movestack]
 * https://dwm.suckless.org/patches/xfce4-panel/[xfce4pannel]
-* https://dwm.suckless.org/patches/gaps/[gaps]
+* https://dwm.suckless.org/patches/centeredmaster/[centeredmaster]
 
 Extra keyboard shortcuts:
 
@@ -46,6 +46,10 @@ Extra keyboard shortcuts:
 | shortcut       | operation
 | Super+Ctrl+s   | flameshot screenshot
 | Super+n        | name the current tag
+| Super+u        | centeredmaster
+| Super+o        | centeredfloatingmaster
+| Super+Shift+j  | move stack left
+| Super+Shift+k  | move stack right
 |===
 
 I would also like to give a special acknowledgement to the
