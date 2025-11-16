@@ -53,7 +53,7 @@ https://dwm.suckless.org/patches/nametag/[nametag] patch. My
 https://dwm.suckless.org/patches/mmnametags/[mmnametags] patch is
 just some changes and additions to this patch.
 
-== ✔️TODO
+== ✔️ TODO
 
 - [ ] Add mingw gcc compiler, for windows development
 - [ ] Refactor script
