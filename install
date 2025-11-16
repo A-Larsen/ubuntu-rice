@@ -45,8 +45,8 @@ sudo ln -sf /usr/share/zoneinfo/${zone} /etc/localtime
 
 # SET GITHUB INFORMATION
 # ----------------------
-# The rest of the gethub setup will beed to be done in a
-# graphical enironment. The after-startx does this.
+# The rest of the github setup will beed to be done in a graphical enironment.
+# The after-startx script does this.
 
 read -p "what is your github username?\n" username
 git config --global user.name "$username"
