@@ -1,7 +1,9 @@
 #!/usr/bin/bash
 sudo apt -y update && sudo apt -y upgrade
-sudo timedatectl set-timezone America/Detroit
-sudo ln -sf /usr/share/zoneinfo/America/Detroit /etc/localtime
+cd /usr/share/zoneinfo
+zone="$(fzf)"
+sudo timedatectl set-timezone $zone
+sudo ln -sf /usr/share/zoneinfo/${zone} /etc/localtime
 sudo lvextend -l +100%FREE /dev/ubuntu-vg/ubuntu-lv
 sudo resize2fs /dev/ubuntu-vg/ubuntu-lv
 sudo cp -r ./home/* ~/
