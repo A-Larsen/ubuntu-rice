@@ -1,11 +1,13 @@
 #!/usr/bin/bash
 sudo apt -y update && sudo apt -y upgrade
 cd /usr/share/zoneinfo
+echo "what is your time zone?\n"
 zone="$(fzf)"
 sudo timedatectl set-timezone $zone
 sudo ln -sf /usr/share/zoneinfo/${zone} /etc/localtime
 sudo lvextend -l +100%FREE /dev/ubuntu-vg/ubuntu-lv
 sudo resize2fs /dev/ubuntu-vg/ubuntu-lv
+cd ~
 sudo cp -r ./home/* ~/
 sudo cp -r ./home/.* ~/
 sudo chown -R $USER:$USER ~/.config
