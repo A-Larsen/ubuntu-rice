@@ -23,9 +23,9 @@ mkdir -p /usr/local/lib
 mkdir -p /usr/local/share
 ./install-packages
 
-read -p "what is your github username?" username
-read -p "what is your github email?" email
+read -p "what is your github username?\n" username
 git config --global user.name "$username"
+read -p "what is your github email?\n" email
 git config --global user.email "$email"
 sudo cp -r usr-local-bin/* /usr/local/bin/
 sudo cp -r usr-local-include/* /usr/local/include/
