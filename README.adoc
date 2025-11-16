@@ -56,7 +56,7 @@ just some changes and additions to this patch.
 == ✔️ TODO
 
 - [ ] Add mingw gcc compiler, for windows development
-- [ ] Refactor script
+- [ ] Refactor scripts
 
 == 🧐 Q and A
 
