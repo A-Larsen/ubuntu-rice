@@ -1,4 +1,4 @@
-#!/usr/bin/sh
+#!/usr/bin/bash
 sudo apt -y update && sudo apt -y upgrade
 sudo timedatectl set-timezone America/Detroit
 sudo ln -sf /usr/share/zoneinfo/America/Detroit /etc/localtime
@@ -22,8 +22,11 @@ mkdir -p /usr/local/include
 mkdir -p /usr/local/lib
 mkdir -p /usr/local/share
 ./install-packages
-git config --global user.name "A-Larsen"
-git config --global user.email "austin.larsen@mailfence.com"
+
+read -p "what is your github username?" username
+read -p "what is your github email?" email
+git config --global user.name "$username"
+git config --global user.email "$email"
 sudo cp -r usr-local-bin/* /usr/local/bin/
 sudo cp -r usr-local-include/* /usr/local/include/
 sudo cp -r usr-local-lib/* /usr/local/lib/
