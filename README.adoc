@@ -14,7 +14,7 @@ WARNING: This is still being worked on. There is no garantee this will work on
 == ⬇️ Installing
 1. Install the minimal version of Ubuntu server
 2. Start your new ubuntu server and clone this repository where you'd like
-4. `cd` to this repository and run `./install`
+4. `cd` to this repository and run `./install <absolute path of repository directory>`
 5. Exit your shell and relogin so you have the new zsh shell
 6. Run `startx` to start your graphical environment (dwm)
 7. (optional) Once in dwm press *Super-Shift-Enter* to start alacritty

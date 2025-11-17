@@ -14,8 +14,9 @@ sudo resize2fs /dev/ubuntu-vg/ubuntu-lv
 # SET UP ENVIRONMENT AND INSTALL ALL THE PACKAGES
 # -----------------------------------------------
 cd ~
-sudo cp -r ./home/* ~/
-sudo cp -r ./home/.* ~/
+dir="$1"
+sudo cp -r ${dir}/home/* ~/
+sudo cp -r ${dir}/home/.* ~/
 sudo chown -R $USER:$USER ~/.config
 sudo chown -R $USER:$USER ~/.fehbg
 sudo chown -R $USER:$USER ~/.sqliterc
@@ -31,16 +32,16 @@ mkdir -p /usr/local/bin
 mkdir -p /usr/local/include
 mkdir -p /usr/local/lib
 mkdir -p /usr/local/share
-sudo cp -r usr-local-bin/* /usr/local/bin/
-sudo cp -r usr-local-include/* /usr/local/include/
-sudo cp -r usr-local-lib/* /usr/local/lib/
-sudo cp -r usr-local-share/* /usr/local/share/
-./install-packages
+sudo cp -r ${dir}/usr-local-bin/* /usr/local/bin/
+sudo cp -r ${dir}/usr-local-include/* /usr/local/include/
+sudo cp -r ${dir}/usr-local-lib/* /usr/local/lib/
+sudo cp -r ${dir}/usr-local-share/* /usr/local/share/
+${dir}/install-packages
 
 # SET TIME ZOME
 # -------------
 cd /usr/share/zoneinfo
-echo "what is your time zone?\n"
+echo -e "what is your time zone?\n"
 zone="$(fzf)"
 sudo timedatectl set-timezone $zone
 sudo ln -sf /usr/share/zoneinfo/${zone} /etc/localtime
@@ -50,9 +51,9 @@ sudo ln -sf /usr/share/zoneinfo/${zone} /etc/localtime
 # The rest of the github setup will beed to be done in a graphical enironment.
 # The after-startx script does this.
 
-read -p "what is your github username?\n" username
+read -p "what is your github username? " username
 git config --global user.name "$username"
-read -p "what is your github email?\n" email
+read -p "what is your github email? " email
 git config --global user.email "$email"
 
 
@@ -63,7 +64,7 @@ sudo unminimize
 
 # SET UP ZSH
 # ----------
-sudo chsh -s /usr/bin/zsh
+chsh -s /usr/bin/zsh
 cd ~/.config/zsh
 git clone https://github.com/zsh-users/zsh-autosuggestions
 git clone https://github.com/le0me55i/zsh-extract.git

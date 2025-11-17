@@ -2582,18 +2582,21 @@ sudo snap install blender --classic
 # CUSTOM INSTALLS
 # ===============
 
-# - dwm install
+# chrome install
 mkdir -p ~/Downloads
 cd ~/Downloads
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-sudo apt -y install ./*.deb
-rm -rf *.deb
+sudo apt -y install ./google-chrome-stable_current_amd64.deb
+sudo rm -rf google-chrome-stable_current_amd64.deb
+
+# - dwm install
 mkdir -p ~/.config/suckless
 cd ~/.config/suckless
-git clone https://github.com/A-Larsen/dwm.git
+git clone https://github.com/A-Larsen/dwm-config.git
+mv dwm-conifg dwm
 cd dwm
 rm -rf config.h
-sudo make && sudo make clean install
+sudo make clean install
 
 # - neovim install
 cd ~/.config
@@ -2611,16 +2614,15 @@ rm -rf nvim-linux-x86_64 nvim-linux-x86_64.tar.gz
 mkdir -p ~/Development/tools/
 cd ~/Development/tools/
 wget https://sdk.lunarg.com/sdk/download/${VULKANVERSION}/linux/vulkansdk-linux-x86_64-${VULKANVERSION}.tar.xz
-tar -xzf vulkansdk-linux-x86_64-${VULKANVERSION}.tar.xz
-rm -rf vulkansdk-linux-x86_64-${VULKANVERSION}.tar.xz
-cd vulkansdk-linux-x86_64-${VULKANVERSION}
-./vulkansdk -j 1
-VULKAN_SDK=${PWD}/x86_64
-sudo cp -r $VULKAN_SDK/include/* /usr/local/include/
-sudo cp -P $VULKAN_SDK/lib/libvulkan.so* /usr/local/lib/
-sudo cp $VULKAN_SDK/lib/libVkLayer_*.so /usr/local/lib/
+tar -xvf vulkansdk-linux-x86_64-${VULKANVERSION}.tar.xz
+mv ${VULKANVERSION} vulkan-${VULKANVERSION}
+VULKAN_SDK="$HOME/Development/tools/vulkan-${VULKANVERSION}/x86_64"
+${VULKAN_SDK}/../vulkansdk -j 1
+sudo cp -r ${VULKAN_SDK}/include/* /usr/local/include/
+sudo cp -P ${VULKAN_SDK}/lib/libvulkan.so* /usr/local/lib/
+sudo cp ${VULKAN_SDK}/lib/libVkLayer_*.so /usr/local/lib/
 sudo mkdir -p /usr/local/share/vulkan/explicit_layer.d
-sudo cp $VULKAN_SDK/share/vulkan/explicit_layer.d/VkLayer_*.json /usr/local/share/vulkan/explicit_layer.d
+sudo cp ${VULKAN_SDK}/share/vulkan/explicit_layer.d/VkLayer_*.json /usr/local/share/vulkan/explicit_layer.d
 mkdir -p ~/Development/tools/vulkan-${VULKANVERSION}/x86_64/bin/
-sudo cp $VULKAN_SDK/bin/* ~/Development/tools/vulkan-${VULKANVERSION}/x86_64/bin/
+sudo cp ${VULKAN_SDK}/bin/* ~/Development/tools/vulkan-${VULKANVERSION}/x86_64/bin/
 sudo rm -rf "source"
