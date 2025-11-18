@@ -1,0 +1,8 @@
+clear lock
+clear control
+keycode 66 = Control_L
+keycode 37 = Caps_Lock
+keycode 9 = grave asciitilde grave asciitilde
+keycode 49 = Escape
+add control = Control_L
+add lock = Caps_Lock
