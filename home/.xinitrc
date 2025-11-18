@@ -22,6 +22,5 @@ pulseaudio & # audio
 flameshot & # screen shots
 dwmblocks & # status bar
 picom & # for transparentcy
-feh --bg-fill
-"$HOME/Pictures/Wallpapers/pexels-nicole-avagliano-1132392-2749481.jpg" & # background image
+feh --bg-fill "$HOME/Pictures/Wallpapers/pexels-nicole-avagliano-1132392-2749481.jpg" & # background image
 exec dwm # start dwm
