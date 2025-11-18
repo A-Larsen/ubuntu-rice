@@ -36,6 +36,7 @@ Patches added to dwm (that I can remember):
 
 * https://dwm.suckless.org/patches/mmnametags/[mmnametags]
 * https://dwm.suckless.org/patches/movestack/[movestack]
+* https://dwm.suckless.org/patches/pertag/[pertag]
 
 Extra keyboard shortcuts:
 
