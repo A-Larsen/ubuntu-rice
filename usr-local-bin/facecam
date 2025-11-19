@@ -4,6 +4,7 @@ ffplay \
 	-fflags nobuffer \
 	-flags low_delay \
 	-framerate 30 \
+	-window_title "facecam" \
 	-video_size 400x500 \
 	-i /dev/video0 \
 
