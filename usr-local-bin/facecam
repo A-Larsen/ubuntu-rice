@@ -1,0 +1,9 @@
+#!/usr/bin/sh
+ffplay \
+	-f v4l2 \
+	-fflags nobuffer \
+	-flags low_delay \
+	-framerate 30 \
+	-video_size 400x500 \
+	-i /dev/video0 \
+
