@@ -2582,8 +2582,16 @@ sudo snap install blender --classic
 # CUSTOM INSTALLS
 # ===============
 
-# chrome install
+# create a download folder if it doesn't exist
 mkdir -p ~/Downloads
+
+# - tst install
+cd ~/Downloads
+git clone https://github.com/A-Larsen/tst.git
+cd tst
+sudo make install USER=$USER
+
+# - chrome install
 cd ~/Downloads
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo apt -y install ./google-chrome-stable_current_amd64.deb
