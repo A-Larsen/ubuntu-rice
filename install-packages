@@ -233,7 +233,6 @@ sudo apt -y install gnome-keyring
 sudo apt -y install gnupg-l10n
 sudo apt -y install gnupg-utils
 sudo apt -y install gnupg
-sudo apt -y install google-chrome-stable
 sudo apt -y install gpg-agent
 sudo apt -y install gpg-wks-client
 sudo apt -y install gpg
@@ -2591,11 +2590,8 @@ git clone https://github.com/A-Larsen/tst.git
 cd tst
 sudo make install USER=$USER
 
-# - chrome install
-cd ~/Downloads
-wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-sudo apt -y install ./google-chrome-stable_current_amd64.deb
-sudo rm -rf google-chrome-stable_current_amd64.deb
+# - brave install
+curl -fsS https://dl.brave.com/install.sh | sh
 
 # - dwm install
 mkdir -p ~/.config/suckless
