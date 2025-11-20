@@ -5,12 +5,15 @@ export SSH_AUTH_SOCK
 export GPG_AGENT_INFO
 export GNOME_KEYRING_CONTROL
 export GNOME_KEYRING_PID
+export BROWSER=/usr/bin/brave-browser
 
 # SETUP
 -------
 tmux kill-server
+pactl set-sink-volume @DEFAULT_SINK@ 100% # default audio to 100%
 # example command for multiple monitors
 # xrandr --output eDP-1 --auto --output HDMI-A-1-0 --auto --above eDP-1
+# xrandr --output HDMI --auto --output HDMI-A-1-0 --auto --above eDP-1
 
 
 # SERVICES
