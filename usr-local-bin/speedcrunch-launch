@@ -1,5 +1,5 @@
 #!/usr/bin/bash
-xdotool search --name speedcrunch
+xdotool search --class speedcrunch
 if [ $? -ne 1 ]; then
 	pkill -f "speedcrunch"
 	exit 1
@@ -10,7 +10,7 @@ speedcrunch &
 err=1
 winid=0
 while [ $err -eq 1 ]; do
-	winid=$(xdotool search --onlyvisible --name speedcrunch)
+	winid=$(xdotool search --class speedcrunch)
 	err=$?
 done
 
