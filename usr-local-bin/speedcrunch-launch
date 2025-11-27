@@ -1,16 +1,16 @@
 #!/usr/bin/bash
-xdotool search --class speedcrunch
+xdotool search --name calculator
 if [ $? -ne 1 ]; then
 	pkill -f "speedcrunch"
 	exit 1
 fi
-speedcrunch &
+speedcrunch --title "calculator" &
 
 # wait for the application to start and be visable and then get window id
 err=1
 winid=0
 while [ $err -eq 1 ]; do
-	winid=$(xdotool search --class speedcrunch)
+	winid=$(xdotool search --name calculator)
 	err=$?
 done
 
