@@ -228,8 +228,6 @@ sudo apt -y install git
 sudo apt -y install glib-networking-common
 sudo apt -y install glib-networking-services
 sudo apt -y install glib-networking
-sudo apt -y install gnome-keyring-pkcs11
-sudo apt -y install gnome-keyring
 sudo apt -y install gnupg-l10n
 sudo apt -y install gnupg-utils
 sudo apt -y install gnupg
@@ -2170,7 +2168,6 @@ sudo apt -y install npm
 sudo apt -y install ntfs-3g
 sudo apt -y install numactl
 sudo apt -y install obs-plugins
-sudo apt -y install obs-studio
 sudo apt -y install ocaml-base
 sudo apt -y install ocaml-core
 sudo apt -y install ocaml-dune
