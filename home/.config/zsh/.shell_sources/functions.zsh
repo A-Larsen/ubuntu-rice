@@ -45,7 +45,6 @@ maths(){
     python -c "print($1)"
 }
 
-
 allfiles(){
     if [[ -z $1 ]];then
         find . -maxdepth 1 -type f | sed 's/.\///g'
@@ -102,6 +101,26 @@ ffuz() {
 	[[ -f $input ]] && sudo vim $input
 }
 
+ffstream() {
+     # https://www.youtube.com/watch?v=kb_5_9GkwZc
+     # list of ingests
+     # https://ingest.twitch.tv/ingests
+    cd ~/.streaming
+    key_file="$(fzf)"
+
+	ffmpeg \
+		-f x11grab \
+		-video_size 1920x1080 \
+		-framerate 24 \
+		-i $DISPLAY \
+		-f pulse \
+        -ac 1 \
+        -i default \
+        -af "pan=stereo|FL=FL|FR=FL" \
+        -vf scale=1920x1080 -c:v h264 -g 24 -b:v 2M -preset ultrafast \
+        -c:a aac -pix_fmt yuv420p -f flv "rtmp://use20.contribute.live-video.net/app/$(cat $key_file)"
+}
+
 ffsrec(){
 	# https://girishjoshi.io/post/screen-recording-with-webcam-overlay-using-ffmpeg/
 	# https://trac.ffmpeg.org/wiki/Capture/ALSA
@@ -151,17 +170,20 @@ ffsrec(){
 	# 	-c:a aac "/tmp/${monofile}"
 	ffmpeg \
 		-f x11grab \
-		-video_size $2 \
+		-video_size 1920x1080 \
 		-framerate 25 \
 		-i $DISPLAY \
-		-f alsa \
-		-i default \
-		-c:v libx264 \
-		-preset ultrafast \
-		-c:a aac "/tmp/${monofile}"
+		-f pulse \
+        -ac 2 \
+        -i default \
+        -af "pan=stereo|FL=FL|FR=FL" \
+        "/home/nyquist/Videos/casts/${today}--${1:-VID}.mp4"
+		# -c:a aac "/tmp/${monofile}"
+		# -c:v libx264 \
+		# -preset ultrafast \
 
-	ffmpeg -i "/tmp/${monofile}" -af "pan=stereo|c0=c0|c1=c0" "/home/nyquist/Videos/casts/youtube/${today}--${1:-VID}.mp4"
-	rm -rf $monofile
+	# ffmpeg -i "/tmp/${monofile}" -af "pan=stereo|c0=c0|c1=c0" "/home/nyquist/Videos/casts/youtube/${today}--${1:-VID}.mp4"
+	# rm -rf $monofile
 
 	# ffmpeg -f x11grab -video_size 1366x768 -framerate 30 -i :0.0 \
 	# -f v4l2 -video_size 320x180 -framerate 30 -i /dev/video0 \

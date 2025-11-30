@@ -6,6 +6,8 @@ alias LLOOP='for ((i=1;i<=${#LINKS[@]};i++)); do link=${LINKS[i]}'
 alias lnF="cd $(readlink -f .)"
 alias fzf="fzf --height=20"
 alias fvim="vim \$(fzf)"
+alias elsblk='lsblk -e7 -o name,type,mountpoints,model'
+alias vim='nvim'
 
 if [[ "$0" = "bash" ]]; then
     alias HELPME="firefox /usr/share/doc/bash/bash.html 2> /dev/null &"
