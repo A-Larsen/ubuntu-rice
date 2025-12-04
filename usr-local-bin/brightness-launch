@@ -1,6 +1,8 @@
 #!/usr/bin/bash
 
+mon="$(xrandr --listactivemonitors | grep -e "^ [0-9]" | cut -d " " -f 6 | dmenu -fn "monospace:size=14" -nb "#222222" -nf "#bbbbbb" -sb "#d8bb6d" -sf "#222222" -p "monitor")"
+
 set=$(echo -e "day\nnight" | dmenu -fn "monospace:size=14" -nb "#222222" -nf "#bbbbbb" -sb "#d8bb6d" -sf "#222222" -p "day or night?")
-[ "$set" == "day" ] && xrandr --output eDP-1 --gamma 1:1:1 --brightness $(dmenu -fn "monospace:size=14" -nb "#222222" -nf "#bbbbbb" -sb "#d8bb6d" -sf "#222222" -p brightness < /dev/null)
-[ "$set" == "night" ] &&  xrandr --output eDP-1 --gamma 1.0:0.88:0.76 --brightness $(dmenu -fn "monospace:size=14" -nb "#222222" -nf "#bbbbbb" -sb "#d8bb6d" -sf "#222222" -p brightness < /dev/null)
+[ "$set" == "day" ] && xrandr --output $mon --gamma 1:1:1 --brightness $(dmenu -fn "monospace:size=14" -nb "#222222" -nf "#bbbbbb" -sb "#d8bb6d" -sf "#222222" -p brightness < /dev/null)
+[ "$set" == "night" ] &&  xrandr --output $mon --gamma 1.0:0.88:0.76 --brightness $(dmenu -fn "monospace:size=14" -nb "#222222" -nf "#bbbbbb" -sb "#d8bb6d" -sf "#222222" -p brightness < /dev/null)
 
