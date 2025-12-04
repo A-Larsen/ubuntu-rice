@@ -2327,7 +2327,6 @@ sudo apt -y install rake
 sudo apt -y install rccl-dev
 sudo apt -y install rccl
 sudo apt -y install readline-common
-sudo apt -y install redshift
 sudo apt -y install rocalution-dev
 sudo apt -y install rocalution
 sudo apt -y install rocblas-dev
