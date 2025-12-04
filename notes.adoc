@@ -1,0 +1,2 @@
+== Links
+* https://askubuntu.com/questions/1003101/how-to-use-xrandr-gamma-for-gnome-night-light-like-usage
