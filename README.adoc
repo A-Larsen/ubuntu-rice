@@ -55,6 +55,39 @@ https://dwm.suckless.org/patches/nametag/[nametag] patch. My
 https://dwm.suckless.org/patches/mmnametags/[mmnametags] patch is
 just some changes and additions to this patch.
 
+=== Connecting to wifi
+
+List internet devices and pick one
+
+----
+sudo ip link
+----
+
+Connect to wifi device
+
+----
+sudo wpa_cli -i <device>
+
+> ADD_NETWORK
+> SET_NETWORK <NETWORK ID> ssid "<ssid>"
+> SET_NETWORK <NETWORK ID> psk "<passphrase>"
+> ENABLE_NETWORK <NETWORK ID>
+> quit
+----
+
+=== Connecting to ethernet
+
+List internet devices and pick one
+
+----
+sudo ip link
+----
+
+----
+sudo ip link set <device> up
+sudo dhcpcd <device>
+----
+
 == ✔️ TODO
 
 - [ ] Add mingw gcc compiler, for windows development
