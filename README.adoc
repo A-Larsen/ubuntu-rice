@@ -48,12 +48,12 @@ Extra keyboard shortcuts:
 | Super+n        | name the current tag
 | Super+Shift+j  | move stack left
 | Super+Shift+k  | move stack right
-| Super+F1       | audio mixer
+| Super+F1       | toggle audio mixer
 | Super+F2       | audio volume down
 | Super+F3       | audio volume up
 | Super+F4       | audio volume mute
-| Super+Shift+m  | htop
-| Super+Shift+e  | calculator
+| Super+Shift+m  | toggle htop
+| Super+Shift+e  | toggle calculator
 |===
 
 I would also like to give a special acknowledgement to the
