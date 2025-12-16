@@ -21,13 +21,20 @@ setopt promptsubst         # enable command substitution in prompt
 # setopt SOURCE_TRACE        # print an informational message announcing the name of each file it loads
 #
 # https://zsh.sourceforge.io/Intro/intro_6.html
+setopt pushdminus pushdsilent pushdtohome  # all the dirstack options
+# In Zsh, you can use the pushd <directory> command to change directories
+# without removing the current directory from the stack. This allows you to
+# navigate to a new directory while keeping the previous one accessible in the
+# directory stack.
+# you can also do pusdh -<directory id> or pushd +<directory id>
+# popd -<directory id> to remove a directory
 # dirstack
-DIRSTACKSIZE=8
-setopt autopushd pushdminus pushdsilent pushdtohome
-alias dh='dirs -v
+# alias dh='dirs -v
+# alias dirs -c = clear directorys
+alias pd="pushd"
 
+DIRSTACKSIZE=4
 WORDCHARS=${WORDCHARS//\/} # Don't consider certain characters part of the word
-
 # hide EOL sign ('%')
 PROMPT_EOL_MARK=""
 
@@ -116,14 +123,15 @@ git_branch_name() {
 		# echo ' \e[0;42m  $branch '
 		# echo " \e[0;42m  $branch \e[49m"
 		# echo " \e[42m  $branch \e[49m"
-		echo " \e[32m● 🌿 \e[44m\e[39m $branch \e[49m\e[39m"
+		echo "\e[32m 🌿 \e[44m\e[39m $branch \e[49m\e[39m"
 	fi
 }
 
 
 if [ "$color_prompt" = yes ]; then
 
-	PROMPT=$'%(?.. %F{red}%? )\e[0;96m[%n%(#.☠.@)%m]%b%F{%(#.blue.green)} %B%F{reset}%(6~.%-1~/…/%4~.%5~)$(git_branch_name)\n%B%(#.%F{red}#.%F{blue}$)%b%F{reset} '
+	# PROMPT=$'%(?.. %F{red}%? )\e[0;96m[%n%(#.☠.@)%m]%b%F{%(#.blue.green)} %B%F{reset}%(6~.%-1~/…/%4~.%5~)$(git_branch_name)\n%B%(#.%F{red}#.%F{blue}$)%b%F{reset} '
+    PROMPT=$'%(?.. %F{red}%? )\e[0;96m[%n%(#.☠.@)%m]%b%F{%(#.blue.green)}%B%F{reset}$(git_branch_name)\n$(dirs -v)\n%B%(#.%F{red}#.%F{blue}$)%b%F{reset} '
 	
 
 	# enable syntax-highlighting
