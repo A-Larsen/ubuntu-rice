@@ -20,8 +20,11 @@ setopt numericglobsort     # sort filenames numerically when it makes sense
 setopt promptsubst         # enable command substitution in prompt
 # setopt SOURCE_TRACE        # print an informational message announcing the name of each file it loads
 #
-# https://zsh.sourceforge.io/Intro/intro_6.html
 setopt pushdminus pushdsilent pushdtohome  # all the dirstack options
+# ---------------
+# DIRSTACK
+# ---------------
+# https://zsh.sourceforge.io/Intro/intro_6.html
 # In Zsh, you can use the pushd <directory> command to change directories
 # without removing the current directory from the stack. This allows you to
 # navigate to a new directory while keeping the previous one accessible in the
@@ -31,6 +34,9 @@ setopt pushdminus pushdsilent pushdtohome  # all the dirstack options
 # dirstack
 # alias dh='dirs -v
 # alias dirs -c = clear directorys
+# to temperarily enter a directory you could pushd <directory> and then
+# popd <directory id> to remove directory from stack and go back to previous
+# directory
 alias pd="pushd"
 
 DIRSTACKSIZE=4
