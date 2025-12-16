@@ -111,14 +111,29 @@ ffstream() {
 	ffmpeg \
 		-f x11grab \
 		-video_size 1920x1080 \
-		-framerate 24 \
+		-framerate 50 \
 		-i $DISPLAY \
 		-f pulse \
         -ac 1 \
         -i default \
         -af "pan=stereo|FL=FL|FR=FL" \
-        -vf scale=1920x1080 -c:v h264 -g 24 -b:v 2M -preset ultrafast \
+        -vf scale=1280x720 -c:v h264 -g 24 -b:v 2M -preset ultrafast \
         -c:a aac -pix_fmt yuv420p -f flv "rtmp://use20.contribute.live-video.net/app/$(cat $key_file)"
+}
+
+ffwrec() {
+	local today=$(date +"%Y-%m-%d")
+    ffmpeg \
+        -f v4l2 \
+        -video_size 640x480 \
+        -i /dev/video0 \
+		-f pulse \
+        -i default \
+        -af "pan=stereo|FL=FL|FR=FL" \
+        -c:v libx264 \
+        -preset ultrafast \
+        "/home/nyquist/Videos/casts/${today}--${1:-VID}.mp4"
+        # -ac 1 \
 }
 
 ffsrec(){
@@ -171,11 +186,12 @@ ffsrec(){
 	ffmpeg \
 		-f x11grab \
 		-video_size 1920x1080 \
-		-framerate 25 \
+		-framerate 60 \
 		-i $DISPLAY \
 		-f pulse \
         -ac 2 \
         -i default \
+		-preset ultrafast \
         -af "pan=stereo|FL=FL|FR=FL" \
         "/home/nyquist/Videos/casts/${today}--${1:-VID}.mp4"
 		# -c:a aac "/tmp/${monofile}"
