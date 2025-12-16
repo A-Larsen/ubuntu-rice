@@ -19,6 +19,12 @@ setopt notify              # report the status of background jobs immediately
 setopt numericglobsort     # sort filenames numerically when it makes sense
 setopt promptsubst         # enable command substitution in prompt
 # setopt SOURCE_TRACE        # print an informational message announcing the name of each file it loads
+#
+# https://zsh.sourceforge.io/Intro/intro_6.html
+# dirstack
+DIRSTACKSIZE=8
+setopt autopushd pushdminus pushdsilent pushdtohome
+alias dh='dirs -v
 
 WORDCHARS=${WORDCHARS//\/} # Don't consider certain characters part of the word
 
