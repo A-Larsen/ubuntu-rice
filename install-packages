@@ -2571,6 +2571,7 @@ sudo apt -y install zsh
 sudo apt -y install zstd
 sudo apt -y install fzf
 sudo apt -y install pipx
+ sudo apt -y install audacity
 
 # python packages
 pipx install jrnl
