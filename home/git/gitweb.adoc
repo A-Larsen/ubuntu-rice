@@ -1,0 +1,51 @@
+== Setting up
+make sure '$projectroot' is set to where your git directories are in
+_/etc/gitweb.conf_. The default is _/var/lib/git/_
+
+add something like this in /etc/apache2/apache2.conf. Find the path for you
+_gitweb.cgi_ file amd make sure to change it appropriately
+
+----
+<VirtualHost *:80>
+    ServerName    192.168.0.24
+    DocumentRoot  /var/lib/git/
+    SetEnv        GITWEB_CONFIG   /etc/gitweb.conf
+
+    # turning on mod rewrite
+    RewriteEngine on
+
+    # make the front page an internal rewrite to the gitweb script
+    RewriteRule ^/$  /usr/lib/cgi-bin/gitweb.cgi
+
+    # make access for "dumb clients" work
+    RewriteRule ^/(.*\.git/(?!/?(HEAD|info|objects|refs)).*)?$ \
+                /cgi-bin/gitweb.cgi%{REQUEST_URI}  [L,PT]
+</VirtualHost>
+----
+
+enable the correct mods
+
+----
+sudo a2enmod rewrite
+sudo a2enmod cgi
+----
+
+restart apache2
+
+----
+sudo systemctl restart apache2.service
+----
+
+If you decided to use symbolic links for projects in your _/var/lib/git/_
+directory then make sure they have premisions from the same user. If the both
+have permisions from the root user than it will work correctly. ex. your real
+projects being in _/git_ and your symbolic links to those projects being in
+_/var/lib/git_.
+
+
+== Links
+* https://www.tutorialspoint.com/git/git-gitweb.htm
+* https://git-scm.com/docs/gitweb
+* https://linuxconfig.org/simple-cgi-and-apache-examples-on-ubuntu-linux
+* https://askubuntu.com/questions/1547855/apache-2-4-58-enabling-cgi-instead-of-cgid
+* https://chrismaiorana.com/git-server-nginx-gitweb/
