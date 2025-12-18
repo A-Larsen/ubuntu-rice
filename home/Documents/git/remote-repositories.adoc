@@ -1,0 +1,122 @@
+== Setting Up Your Own Remote Git Repository
+
+You can host your own remote Git repository on any machine that both you and
+your collaborators can access (for example, a server, NAS, or another local
+computer). The remote repository is usually a *bare repository*, which means
+it stores all Git data but no working files.
+
+---
+
+=== 🔹 1. Choose or Create a Server
+
+Pick a machine that will serve as your Git remote. It can be:
+
+* a dedicated server (for example, a VPS or Raspberry Pi)
+* another computer on your local network
+* a shared drive accessible via SSH
+
+Let’s assume your server username is `gituser` and the server address is
+`server.example.com`.
+
+---
+
+=== 🔹 2. Create a Bare Repository on the Server
+
+Connect to the server via SSH:
+
+[source,bash]
+----
+ssh gituser@server.example.com
+----
+
+Then create a directory for your repositories and initialize a bare Git repo:
+
+[source,bash]
+----
+mkdir -p ~/repos/myproject.git
+cd ~/repos/myproject.git
+git init --bare
+----
+
+This creates a repository that contains *only* Git metadata — it cannot be
+worked in directly, only pushed to or cloned from.
+
+---
+
+=== 🔹 3. Set Permissions (Optional)
+
+If others will access the repo, ensure correct permissions:
+
+[source,bash]
+----
+chmod -R 755 ~/repos/myproject.git
+----
+
+Or configure a dedicated `git` user and use SSH keys for access.
+
+---
+
+=== 🔹 4. Add the Remote Repository to Your Local Project
+
+On your local machine (where your working project lives):
+
+[source,bash]
+----
+cd ~/projects/myproject
+git init
+git remote add origin gituser@server.example.com:~/repos/myproject.git
+----
+
+---
+
+=== 🔹 5. Push the Project to the Remote
+
+Add and commit your files if you haven’t already:
+
+[source,bash]
+----
+git add .
+git commit -m "Initial commit"
+----
+
+Then push everything to your new remote:
+
+[source,bash]
+----
+git push -u origin master
+----
+
+---
+
+=== 🔹 6. Clone from the Remote (on Another Machine)
+
+To clone your repository from the server:
+
+[source,bash]
+----
+git clone gituser@server.example.com:~/repos/myproject.git
+----
+
+This creates a local working copy linked to your self-hosted remote.
+
+---
+
+=== ✅ Summary
+
+* A **bare repository** is used as a remote store.  
+* You can host it on any machine accessible via SSH.  
+* Use `git init --bare` on the server to create it.  
+* Add it as a remote to your local project and push.  
+* Clone or pull from it as you would from any remote service.
+
+---
+
+=== 🧠 Tip
+
+If you plan to manage multiple users, you can simplify access by:
+
+* creating a shared `git` user with SSH key authentication  
+* using `git-shell` to restrict commands  
+* or setting up a small service like **Gitea**, **GitLab**, or **cgit** for
+  a web interface
+

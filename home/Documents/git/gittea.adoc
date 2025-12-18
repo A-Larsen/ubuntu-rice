@@ -1,0 +1,256 @@
+== Installing and Configuring Gitea on Ubuntu 24.04.3 LTS
+
+You can host your own Git service using Gitea — a lightweight, self-hosted Git
+server written in Go. This guide explains how to install and configure Gitea
+on Ubuntu 24.04.3 LTS using the binary method (recommended for simplicity) and
+includes a brief Docker alternative at the end.
+
+---
+
+=== 🔹 1. Update the System and Install Git
+
+[source,bash]
+----
+sudo apt update && sudo apt upgrade -y
+sudo apt install git -y
+----
+
+Ensure you have a non-root user with `sudo` privileges. Gitea requires Git
+version 2.0 or newer.
+
+---
+
+=== 🔹 2. Create a Dedicated “git” User
+
+[source,bash]
+----
+sudo adduser --system --shell /bin/bash \
+  --gecos 'Git Version Control' --group --disabled-password \
+  --home /home/git git
+----
+
+This system user will own the repositories and run the Gitea service.
+
+---
+
+=== 🔹 3. Download and Install the Gitea Binary
+
+[source,bash]
+----
+VERSION=<latest-version>
+wget -O /tmp/gitea \
+  https://dl.gitea.com/gitea/${VERSION}/gitea-${VERSION}-linux-amd64
+chmod +x /tmp/gitea
+sudo mv /tmp/gitea /usr/local/bin/gitea
+----
+
+Check the latest release at: https://dl.gitea.com/gitea/
+
+---
+
+=== 🔹 4. Create Required Directories and Set Permissions
+
+[source,bash]
+----
+sudo mkdir -p /var/lib/gitea/{custom,data,log}
+sudo chown -R git:git /var/lib/gitea/
+sudo chmod -R 750 /var/lib/gitea/
+sudo mkdir /etc/gitea
+sudo chown root:git /etc/gitea
+sudo chmod 770 /etc/gitea
+----
+
+These directories store data, repositories, and configuration files.
+
+---
+
+=== 🔹 5. Create a systemd Service for Gitea
+
+[source,bash]
+----
+sudo nano /etc/systemd/system/gitea.service
+----
+
+Add the following contents:
+
+[source,ini]
+----
+[Unit]
+Description=Gitea (Git with a cup of tea)
+After=syslog.target network.target
+
+[Service]
+User=git
+Group=git
+WorkingDirectory=/var/lib/gitea/
+ExecStart=/usr/local/bin/gitea web --config /etc/gitea/app.ini
+Restart=always
+Environment=USER=git HOME=/home/git
+
+[Install]
+WantedBy=multi-user.target
+----
+
+Then reload systemd and start the service:
+
+[source,bash]
+----
+sudo systemctl daemon-reload
+sudo systemctl enable --now gitea
+----
+
+---
+
+=== 🔹 6. Configure the Firewall
+
+If you use UFW (Uncomplicated Firewall), open the web and SSH ports:
+
+[source,bash]
+----
+sudo ufw allow 3000/tcp
+sudo ufw allow 22/tcp
+sudo ufw reload
+----
+
+Port 3000 is used for the web UI; port 22 for Git over SSH.
+
+---
+
+=== 🔹 7. Access the Web Interface
+
+Visit Gitea in your browser:
+
+[source,text]
+----
+http://<your-server-ip>:3000
+----
+
+You’ll see the initial setup screen. Important options:
+
+* **Database Type:** SQLite (simple) or PostgreSQL/MySQL (recommended)
+* **Repository Root Path:** `/var/lib/gitea/data`
+* **Run As User:** `git`
+* **Domain / SSH Port:** match your server settings
+* **App URL:** `http://<your-domain-or-ip>:3000/`
+
+After completing the setup, secure permissions:
+
+[source,bash]
+----
+sudo chmod 750 /etc/gitea
+sudo chmod 640 /etc/gitea/app.ini
+----
+
+---
+
+=== 🔹 8. (Optional) Configure Reverse Proxy and HTTPS
+
+For production deployments, you can set up Nginx as a reverse proxy and enable
+HTTPS with Let’s Encrypt.
+
+Example Nginx block (simplified):
+
+[source,nginx]
+----
+server {
+    listen 80;
+    server_name git.example.com;
+    location / {
+        proxy_pass http://localhost:3000;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+    }
+}
+----
+
+Then install Certbot and request a certificate:
+
+[source,bash]
+----
+sudo apt install certbot python3-certbot-nginx -y
+sudo certbot --nginx -d git.example.com
+----
+
+---
+
+=== ✅ Summary (Binary Method)
+
+* Install Git and the Gitea binary.
+* Create the `git` user and data directories.
+* Configure a systemd service.
+* Start and enable Gitea.
+* Access the web UI at port 3000 to finalize setup.
+* Optionally enable HTTPS for secure access.
+
+---
+
+== Alternative: Install Gitea via Docker
+
+If you prefer containers, Gitea provides an official Docker image.
+
+=== 🔹 1. Install Docker and Docker Compose
+
+[source,bash]
+----
+sudo apt install docker.io docker-compose -y
+sudo systemctl enable --now docker
+----
+
+=== 🔹 2. Create Deployment Directory
+
+[source,bash]
+----
+mkdir ~/gitea && cd ~/gitea
+----
+
+=== 🔹 3. Create a `docker-compose.yml` File
+
+[source,yaml]
+----
+version: "3"
+
+services:
+  gitea:
+    image: gitea/gitea:latest
+    container_name: gitea
+    restart: always
+    environment:
+      - USER_UID=1000
+      - USER_GID=1000
+    volumes:
+      - ./data:/data
+    ports:
+      - "3000:3000"
+      - "2222:22"
+----
+
+=== 🔹 4. Start the Container
+
+[source,bash]
+----
+docker-compose up -d
+----
+
+Access the web setup at `http://<server-ip>:3000` just like the binary
+installation.
+
+---
+
+== 🧠 Tips and Considerations
+
+* Use **PostgreSQL** or **MySQL** for multi-user setups; avoid SQLite in
+  production.
+* Back up `/var/lib/gitea/` and `/etc/gitea/app.ini` regularly.
+* Keep your Gitea binary (or Docker image) up to date.
+* Use SSH keys for secure Git operations.
+* Set up HTTPS and a domain name for professional deployments.
+* Use a reverse proxy for easy access and load balancing.
+
+---
+
+== ⚙️ Optional: Bash Automation Script
+
+You can automate most of the steps above using a Bash script. This includes
+user creation, directory setup, binary download, and service registration.
+Would you like me to include that script next?
+

@@ -1,0 +1,63 @@
+== comparing the output of two different commands
+
+[source, bash]
+----
+diff <(ls Vulkan-Game-Engine_Tutorials) <(ls Vulkan-Game-Engine_Tutorials.backup)
+----
+
+== Extra Information of usb Devices
+----
+lsusb -v
+----
+
+== Get the model name as well in lsblk
+----
+lsblk -o name,size,mountpoints,model
+----
+
+== WPA Suplicant
+=== Preperation
+The config file _/etc/wpa_supplicant.conf_, must look like this.
+
+----
+ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+update_config=1
+country=US
+----
+
+Restart wpa_supplicant
+
+----
+sudo killall wpa_supplicant
+sudo wpa_supplicant -B -i wlp6s0 -c /etc/wpa_supplicant.conf
+----
+
+Connecting to wifi
+
+----
+sudo wpa_cli -i wlp6s0
+
+> ADD_NETWORK
+> SET_NETWORK 0 ssid "AP_NAME"
+> SET_NETWORK 0 psk "passphrase"
+> ENABLE_NETWORK 0
+> quit
+----
+
+== Connecting to ethernet
+
+----
+sudo ip link set eno1 up
+sudo dhcpcd eno1
+----
+
+== System d
+
+----
+systemctl restart wpa_supplicant.service
+sudo systemctl restart wpa_supplicant.service
+systemctl daemon-reload
+
+systemctl list-unit-files | grep wpa
+systemctl cat wpa_supplicant.service
+----
