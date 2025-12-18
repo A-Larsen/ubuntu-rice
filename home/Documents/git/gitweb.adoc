@@ -37,6 +37,64 @@ sudo systemctl restart apache2.service
 ----
 
 
+
+== hard way for permisions
+If you decided to use symbolic links for projects in your _/var/lib/git/_
+directory then make sure they have premisions from the same user. If the both
+have permisions from the root user than it will work correctly. ex. your real
+projects being in _/git_ and your symbolic links to those projects being in
+_/var/lib/git_.
+
+----
+ls -l /var/lib/git/
+lrwxrwxrwx 1 git www-data 19 Dec 18 22:35 math-notes.git -> /git/math-notes.git
+ls -l /git/
+drwxr-xr-x 7 git www-data 4096 Dec 18 22:34 math-notes.git
+cat /etc/group | grep git
+git:x:110:
+cat /etc/group | grep www
+www-data:x:33:
+----
+
+
+adding the git user
+
+----
+adduser \
+   --system \
+   --shell /bin/bash \
+   --gecos 'Git Version Control' \
+   --group \
+   --disabled-password \
+   --home /home/git \
+   git
+----
+
+----
+chgrp -R www-data /var/lib/git/
+chown -R git /var/lib/git/
+chgrp -R www-data /git
+chown -R git /git
+----
+
+== easy way for permisions
+
+change ownership
+
+----
+chown git:git /var/lib/git/
+----
+
+to clone on another pc
+
+----
+git clone ssh://git@192.168.0.24:/var/lib/git/math-<repository name>.git
+----
+
+
+
+
+
 == Links
 * https://www.tutorialspoint.com/git/git-gitweb.htm
 * https://git-scm.com/docs/gitweb
