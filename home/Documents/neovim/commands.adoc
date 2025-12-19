@@ -1,0 +1,10 @@
+== g<c-a> in visual block mode
+
+If you selected all these numbers in visual block mode and then did a g<c-a> you
+would create an increment of these numbers. Could be useful when creating lists
+
+----
+1.
+1.
+1.
+----

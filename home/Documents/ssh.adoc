@@ -1,0 +1,51 @@
+== Editing remote ssh files locally
+
+Mount the remote filesystem locally, then edit normally.
+
+Install sshfs:
+
+----
+# Debian / Ubuntu
+sudo apt install sshfs
+
+# Arch
+sudo pacman -S sshfs
+----
+
+Mount:
+
+----
+mkdir -p ~/mnt/server
+sshfs user@host:/ ~/mnt/server
+----
+
+Edit with Neovim:
+
+----
+nvim ~/mnt/server/etc/nginx/nginx.conf
+----
+
+Unmount:
+
+----
+fusermount -u ~/mnt/server
+----
+
+Pros:
+* Feels fully local
+* All tools work (ripgrep, LSP, git)
+
+Cons:
+* Needs FUSE
+* Slight overhead
+
+== enabling root logins
+
+edit _/etc/ssh/sshd_config_ to have this line:
+
+----
+PermitRootLogin yes
+----
+
+== Links
+* https://itsfoss.gitlab.io/post/vim-tips--edit-remote-files-with-vim-on-linux/

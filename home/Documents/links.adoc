@@ -1,0 +1,2 @@
+* https://askubuntu.com/questions/866344/after-rfkill-unblock-nmcli-still-shows-wifi-device-as-unavailable
+* https://unix.stackexchange.com/questions/458406/network-manager-works-but-wlan-is-unavailable-for-nmcli

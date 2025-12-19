@@ -1,0 +1,4 @@
+== Shortcuts
+* `<c-b>=` get clipboard history
+* `<c-b>s` show all terminals in session
+
