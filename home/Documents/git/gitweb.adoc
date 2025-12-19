@@ -92,6 +92,14 @@ git clone ssh://git@192.168.0.24:/var/lib/git/math-<repository name>.git
 ----
 
 
+== Viewing readme
+If you are using gitweb to serve your git repositories, you can add a file named
+README.html to the (bare) repository. gitweb will then display the contents of
+this file along with the tree of commits.
+
+
+
+
 
 
 
@@ -101,3 +109,4 @@ git clone ssh://git@192.168.0.24:/var/lib/git/math-<repository name>.git
 * https://linuxconfig.org/simple-cgi-and-apache-examples-on-ubuntu-linux
 * https://askubuntu.com/questions/1547855/apache-2-4-58-enabling-cgi-instead-of-cgid
 * https://chrismaiorana.com/git-server-nginx-gitweb/
+* https://bastian.rieck.me/blog/2013/gitweb_readme_workflow/
