@@ -39,6 +39,10 @@ Cons:
 * Needs FUSE
 * Slight overhead
 
+IMPORTANT:
+    If the directory size is two large then this will slow down sshfs
+    
+
 == enabling root logins
 
 edit _/etc/ssh/sshd_config_ to have this line:
@@ -49,3 +53,4 @@ PermitRootLogin yes
 
 == Links
 * https://itsfoss.gitlab.io/post/vim-tips--edit-remote-files-with-vim-on-linux/
+* https://emilohlsson.github.io/neovim/ssh/2024/09/30/remote-nvim.html
