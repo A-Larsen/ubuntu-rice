@@ -20,22 +20,18 @@ ffmpeg \
     -af "pan=stereo|FL=FL|FR=FL" \
     "$file" &
 
+[[ "$!" -gt 0 ]] && notify-send -t 2000 "recording started" || exit
 # Save ffmpeg PID
-ffmpeg_pid=$!
-echo $ffmpeg_pid > /tmp/ffsrec_ffmpeg.pid
-
-echo "ffmpeg PID: $ffmpeg_pid"
+echo $! > /tmp/ffsrec_ffmpeg.pid
 
 # Keep script alive until ffmpeg finishes
-wait $ffmpeg_pid
+wait $!
 
 # kill with this command
 # $ kill -SIGINT $(cat /tmp/ffsrec_ffmpeg.pid)
 
 # Cleanup
 rm -f /tmp/ffsrec_ffmpeg.pid
-echo "Recording finished."
-
 
 GTK_THEME=Adwaita:dark yad --title "youtube-upload" \
   --center \
@@ -58,7 +54,7 @@ preform=$(GTK_THEME=Adwaita:dark yad --form \
     --field='Title' "$name" \
     --field='Description:TXT' '' \
     --field='Privacy:CB' 'private!public!unlisted'\
-    --field='tags' '')
+    --field='tags (seperate with commas)' '')
 
 form="$(tr '\n' '`' < <(echo -e "$preform"))"
 title="$(echo $form | cut -f1 -d '&')"
@@ -70,8 +66,8 @@ tags="$(echo $form | cut -f4 -d '&')"
 # for debuging purposes
 #echo -e "title:\n\t$title\ndescription:\n$description\nprivacy:\n\t$privacy\ntags:\n\t$tags"
 
-/usr/local/bin/youtube-upload  "$file" \
+/usr/local/bin/youtube-upload "$file" \
 	--title "$title" \
 	--description "$description" \
 	--privacy "$privacy" \
-	--tags "$tags" && notify-send "upload succeeded"
+	--tags "$tags" && notify-send "upload succeeded" || notify-send "did not upload"
