@@ -32,24 +32,25 @@ GTK_THEME=Adwaita:dark yad --title "youtube-upload" \
   --button="yes:0" \
   --button="no:1" || exit
 
-preform="$(GTK_THEME=Adwaita:dark yad --form \
+preform=$(GTK_THEME=Adwaita:dark yad --form \
+    --separator="&" \
     --title='youtube-upload' \
     --center \
     --width=700 \
     --height=500 \
-    --field='Title' $name \
+    --field='Title' "$name" \
     --field='Description:TXT' '' \
     --field='Privacy:CB' 'private!public!unlisted'\
-    --field='tags' '')"
+    --field='tags' '')
 
 form="$(tr '\n' '`' < <(echo -e "$preform"))"
-title="$(echo $form | cut -f1 -d '|')"
-predescription="$(echo $form | cut -f2 -d '|')"
+title="$(echo $form | cut -f1 -d '&')"
+predescription="$(echo $form | cut -f2 -d '&')"
 description="$(tr '`' '\n' < <(echo -e "$predescription"))"
-privacy="$(echo $form | cut -f3 -d '|')"
-tags="$(echo $form | cut -f4 -d '|')"
+privacy="$(echo $form | cut -f3 -d '&')"
+tags="$(echo $form | cut -f4 -d '&')"
 
-# for debuging
+# for debuging purposes
 #echo -e "title:\n\t$title\ndescription:\n$description\nprivacy:\n\t$privacy\ntags:\n\t$tags"
 
 /usr/local/bin/youtube-upload  "$file" \
