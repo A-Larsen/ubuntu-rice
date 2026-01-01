@@ -7,18 +7,35 @@ cd /home/nyquist/Videos/casts/
 
 file="${today}--${name:-VID}.mp4"
 
+# Start ffmpeg in the background
 ffmpeg \
- 	-f x11grab \
- 	-video_size 1920x1080 \
- 	-framerate 60 \
- 	-i $DISPLAY \
- 	-f pulse \
- 	-ac 2 \
- 	-i default \
- 	-preset ultrafast \
- 	-af "pan=stereo|FL=FL|FR=FL" \
- 	"$file" &
-wait
+    -f x11grab \
+    -video_size 1920x1080 \
+    -framerate 60 \
+    -i $DISPLAY \
+    -f pulse \
+    -ac 2 \
+    -i default \
+    -preset ultrafast \
+    -af "pan=stereo|FL=FL|FR=FL" \
+    "$file" &
+
+# Save ffmpeg PID
+ffmpeg_pid=$!
+echo $ffmpeg_pid > /tmp/ffsrec_ffmpeg.pid
+
+echo "ffmpeg PID: $ffmpeg_pid"
+
+# Keep script alive until ffmpeg finishes
+wait $ffmpeg_pid
+
+# kill with this command
+# $ kill -SIGINT $(cat /tmp/ffsrec_ffmpeg.pid)
+
+# Cleanup
+rm -f /tmp/ffsrec_ffmpeg.pid
+echo "Recording finished."
+
 
 GTK_THEME=Adwaita:dark yad --title "youtube-upload" \
   --center \

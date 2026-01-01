@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+[[ -f /tmp/ffsrec_ffmpeg.pid ]] && kill -SIGINT $(cat /tmp/ffsrec_ffmpeg.pid)
