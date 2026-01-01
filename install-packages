@@ -2571,7 +2571,9 @@ sudo apt -y install zsh
 sudo apt -y install zstd
 sudo apt -y install fzf
 sudo apt -y install pipx
- sudo apt -y install audacity
+sudo apt -y install audacity
+sudo apt -y install qt5ct # to change qt themes
+sudo apt -y install yad
 
 # python packages
 pipx install jrnl

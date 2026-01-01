@@ -1,99 +1,59 @@
 #!/usr/bin/env bash
-# ffsrec(){
-# 	# https://girishjoshi.io/post/screen-recording-with-webcam-overlay-using-ffmpeg/
-# 	# https://trac.ffmpeg.org/wiki/Capture/ALSA
-
-# 	local today=$(date +"%Y-%m-%d")
-
-# 	# ffmpeg \
-# 	# 	-f x11grab \
-# 	# 	-video_size 2560x1080 \
-# 	# 	-framerate 25 \
-# 	# 	-i $DISPLAY \
-# 	# 	-f alsa \
-# 	# 	-i hw:3 \
-# 	# 	-c:v libx264 \
-# 	# 	-preset ultrafast \
-# 	# 	-c:a aac "${today}--${1:-VID}.mp4"
-
-# 	# echo -n "path: "
-# 	# read dir
-# 	# local path="~/Videos/casts/${dir}/"
-# 	# echo $path
-
-# 	local monofile="mono.mp4"
-
-# 	rm -rf /tmp/${monofile}
-
-# 	# ffmpeg \
-# 	# 	-f x11grab \
-# 	# 	-video_size 2560x1080 \
-# 	# 	-framerate 25 \
-# 	# 	-i $DISPLAY \
-# 	# 	-f alsa \
-# 	# 	-i default:2 \
-# 	# 	-c:v libx264 \
-# 	# 	-preset ultrafast \
-# 	# 	-c:a aac "/tmp/${monofile}"
-
-# 	# ffmpeg \
-# 	# 	-f x11grab \
-# 	# 	-video_size 2560x1080 \
-# 	# 	-framerate 25 \
-# 	# 	-i $DISPLAY \
-# 	# 	-f alsa \
-# 	# 	-i default \
-# 	# 	-c:v libx264 \
-# 	# 	-preset ultrafast \
-# 	# 	-c:a aac "/tmp/${monofile}"
 today=$(date +"%Y-%m-%d")
 
 name="$(dmenu -fn "monospace:size=14" -nb "#222222" -nf "#bbbbbb" -sb "#d8bb6d" -sf "#222222" -p "video name" < /dev/null)"
-file="/home/nyquist/Videos/casts/${today}--${name:-VID}.mp4"
+
+cd /home/nyquist/Videos/casts/
+
+file="${today}--${name:-VID}.mp4"
 
 ffmpeg \
-	-f x11grab \
-	-video_size 1920x1080 \
-	-framerate 60 \
-	-i $DISPLAY \
-	-f pulse \
-	-ac 2 \
-	-i default \
-	-preset ultrafast \
-	-af "pan=stereo|FL=FL|FR=FL" \
-	"$file" &
+ 	-f x11grab \
+ 	-video_size 1920x1080 \
+ 	-framerate 60 \
+ 	-i $DISPLAY \
+ 	-f pulse \
+ 	-ac 2 \
+ 	-i default \
+ 	-preset ultrafast \
+ 	-af "pan=stereo|FL=FL|FR=FL" \
+ 	"$file" &
 wait
 
-set=$(echo -e "y\nn" | dmenu -fn "monospace:size=14" -nb "#222222" -nf "#bbbbbb" -sb "#d8bb6d" -sf "#222222" -p "want to view your video?")
+GTK_THEME=Adwaita:dark yad --title "youtube-upload" \
+  --center \
+  --text "do you want to view your video?" \
+  --button="yes:0" \
+  --button="no:1" && ffplay "$file"
 
-ffplay "$file"
+GTK_THEME=Adwaita:dark yad --title "youtube-upload" \
+  --center \
+  --text "do you want to upload to youtube?" \
+  --button="yes:0" \
+  --button="no:1" || exit
 
-# 		# -c:a aac "/tmp/${monofile}"
-# 		# -c:v libx264 \
-# 		# -preset ultrafast \
+preform="$(GTK_THEME=Adwaita:dark yad --form \
+    --title='youtube-upload' \
+    --center \
+    --width=700 \
+    --height=500 \
+    --field='Title' $name \
+    --field='Description:TXT' '' \
+    --field='Privacy:CB' 'private!public!unlisted'\
+    --field='tags' '')"
 
-# 	# ffmpeg -i "/tmp/${monofile}" -af "pan=stereo|c0=c0|c1=c0" "/home/nyquist/Videos/casts/youtube/${today}--${1:-VID}.mp4"
-# 	# rm -rf $monofile
+form="$(tr '\n' '`' < <(echo -e "$preform"))"
+title="$(echo $form | cut -f1 -d '|')"
+predescription="$(echo $form | cut -f2 -d '|')"
+description="$(tr '`' '\n' < <(echo -e "$predescription"))"
+privacy="$(echo $form | cut -f3 -d '|')"
+tags="$(echo $form | cut -f4 -d '|')"
 
-# 	# ffmpeg -f x11grab -video_size 1366x768 -framerate 30 -i :0.0 \
-# 	# -f v4l2 -video_size 320x180 -framerate 30 -i /dev/video0 \
-# 	# -filter_complex 'overlay=main_w-overlay_w:main_h-overlay_h:format=yuv444' \
-# 	# -vcodec libx264 -preset ultrafast -qp 0 -pix_fmt yuv444p video.mp4
+# for debuging
+#echo -e "title:\n\t$title\ndescription:\n$description\nprivacy:\n\t$privacy\ntags:\n\t$tags"
 
-# 	# ffmpeg \
-# 	# 	-f x11grab \
-# 	# 	-video_size 2560x1080 \
-# 	# 	-framerate 25 \
-# 	# 	-i $DISPLAY \
-# 	# 	-f v4l2 \
-# 	# 	-video_size 320x1080 \
-# 	# 	-framerate 25 \
-# 	# 	-i /dev/video0 \
-# 	# 	-filter_complex 'overlay=main_w-overlay_w:main_h-overlay_h:format=yuv444' \
-# 	# 	-f alsa \
-# 	# 	-i hw:3 \
-# 	# 	-c:v libx264 \
-# 	# 	-preset ultrafast \
-# 	# 	-c:a aac "${today}--${1:-VID}.mp4"
-# 		# -c:a aac "what.mp4"
-# }
+/usr/local/bin/youtube-upload  "$file" \
+	--title "$title" \
+	--description "$description" \
+	--privacy "$privacy" \
+	--tags "$tags" && notify-send "upload succeeded"
