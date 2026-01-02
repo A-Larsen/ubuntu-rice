@@ -7,18 +7,26 @@ cd /home/nyquist/Videos/casts/
 
 file="${today}--${name:-VID}.mp4"
 
-# Start ffmpeg in the background
 ffmpeg \
     -f x11grab \
     -video_size 1920x1080 \
     -framerate 60 \
-    -i $DISPLAY \
-    -f pulse \
-    -ac 2 \
-    -i default \
+    -i "$DISPLAY" \
+    -f pulse -i alsa_output.pci-0000_00_1f.3.analog-stereo.monitor \
+    -f pulse -i alsa_input.pci-0000_00_1f.3.analog-stereo \
+    -filter_complex "\
+[2:a]agate=threshold=-40dB:ratio=8:attack=5:release=150,\
+      acompressor=threshold=-18dB:ratio=4:attack=10:release=200:makeup=1,\
+      asplit=2[mic_mix][mic_sc];\
+[1:a][mic_sc]sidechaincompress=threshold=-35dB:ratio=20:attack=20:release=300[desktop_ducked];\
+[desktop_ducked][mic_mix]amix=inputs=2:dropout_transition=0,\
+      pan=stereo|FL=FL|FR=FL[a]\
+" \
+    -map 0:v \
+    -map "[a]" \
     -preset ultrafast \
-    -af "pan=stereo|FL=FL|FR=FL" \
     "$file" &
+
 
 [[ "$!" -gt 0 ]] && notify-send -t 2000 "recording started" || exit
 # Save ffmpeg PID
@@ -37,7 +45,7 @@ GTK_THEME=Adwaita:dark yad --title "youtube-upload" \
   --center \
   --text "do you want to view your video?" \
   --button="yes:0" \
-  --button="no:1" && ffplay "$file"
+  --button="no:1" && mpv --speed=1.5 --fs "$file"
 
 GTK_THEME=Adwaita:dark yad --title "youtube-upload" \
   --center \

@@ -2574,6 +2574,13 @@ sudo apt -y install pipx
 sudo apt -y install audacity
 sudo apt -y install qt5ct # to change qt themes
 sudo apt -y install yad
+sudo apt -y install mpv
+# for youtube uploading
+sudo apt install python3-googleapi
+sudo apt install python3-oauth2client
+sudo apt install python3-progressbar
+sudo apt install python3-google-auth-oauthlib
+
 
 # python packages
 pipx install jrnl
